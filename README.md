@@ -1,2 +1,1 @@
-# artex
-sté textile 
+artex
