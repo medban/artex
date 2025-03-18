@@ -1,142 +1,185 @@
-import { useState, useEffect, useCallback, useMemo } from "react";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
-import headerImg from "../assets/img/KIM.jpg";
-import img1 from "../assets/img/machine2.jpg";
-import img2 from "../assets/img/machine.jpg";
-import img3 from "../assets/img/machine 1.jpg";
-import img4 from "../assets/img/file.jpg";
-import "animate.css";
-import {Contact} from "../components/Contact";
-import { Footer } from "../components/Footer";
-import TrackVisibility from "react-on-screen";
+import { useEffect } from "react";
+import { Container, Row, Col, Tab } from "react-bootstrap";
+import { ProductsCard } from "./productsCard.jsx";
 
-const About = () => {
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+import projImg1 from "../assets/img/chevron/bleu clair.jpg";
+import projImg2 from "../assets/img/chevron/bleu unique.jpg";
+import projImg3 from "../assets/img/chevron/bleu.jpg";
+import projImg4 from "../assets/img/chevron/brown gray.jpg";
+import projImg5 from "../assets/img/chevron/gold.jpg";
+import projImg6 from "../assets/img/chevron/gray.jpg";
+import projImg7 from "../assets/img/chevron/oragne verte.jpg";
+import projImg8 from "../assets/img/chevron/orange noire.jpg";
+import projImg9 from "../assets/img/chevron/pistache.jpg";
+import projImg10 from "../assets/img/chevron/rsoe bleu.jpg";
+import projImg11 from "../assets/img/chevron/tirqoise bleu.jpg";
+import projImg12 from "../assets/img/chevron/verte jeaun.jpg";
+import projImg13 from "../assets/img/chevron/verte.jpg";
+import projImg14 from "../assets/img/chevron/1.JPG";
+import projImg15 from "../assets/img/chevron/2.JPG";
+import projImg16 from "../assets/img/chevron/3.JPG";
+import projImg17 from "../assets/img/chevron/4.JPG";
 
-  const toRotate = useMemo(() => ["Web Developer", "Web Designer", "UI/UX Designer"], []);
+import "animate.css"
+import colorSharp2 from "../assets/img/color-sharp2.png";
+import TrackVisibility from 'react-on-screen';
+import { Footer } from '../components/Footer.js';
 
-  const tick = useCallback(() => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
+ const Chevron  = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+  
+    const products = [
+        
+        {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg13,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg12,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg3,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg4,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg5,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg11,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg7,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg8,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg9,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg10,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg6,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg2,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg1,
+            link: "/ProductDchevron",
+          },
+          {
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg14,
+            link: "/ProductDchevron",
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg15,
+            link: "/ProductDchevron",
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg16,
+            link: "/ProductDchevron",
+          },{
+            title: "UNIQUE CHEVRON ",
+            description: "Design BY ARTEX",
+            imgUrl: projImg17,
+            link: "/ProductDchevron",
+          },
+      ];
+    
+      return (
+        <>
+       
+        <section className="project">
+                <div className="TITELE">
+                      <h1> ARTEX TUNISIE</h1>
+                 </div>
+          <Container>
+            <Row>
+              <Col size={12}>
+                <TrackVisibility>
+                  {({ isVisible }) =>
+                  <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+                    <h2>CHEVRON</h2>
+                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                     
+                      <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                        <Tab.Pane eventKey="first">
+                          <Row>
+                            {
+                              products.map((product, index) => {
+                                return (
+                                  <ProductsCard
+                                    key={index}
+                                    {...product}
+                                    />
+                                )
+                              })
+                            }
+                          </Row>
+                        </Tab.Pane>   
+                      </Tab.Content>
+                    </Tab.Container>
+                  </div>}
+                </TrackVisibility>
+              </Col>
+            </Row>
+          </Container>
+          <img className="background-image-right" src={colorSharp2} alt="Background design" />
+          </section>
+        <Footer/>
 
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
+          </>
+      )
     }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setDelta(period);
-    } else if (isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum((prevLoopNum) => prevLoopNum + 1);
-      setDelta(500);
-    }
-  }, [loopNum, isDeleting, text, toRotate, period]);
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => clearInterval(ticker);
-  }, [text, delta, tick]);
-
-  return (
-    <>
-      <section className="banner" id="home">
-        <Container>
-          <Row className="align-items-center">
-            <Col xs={12} md={6} xl={7}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">KARIM AROUS</span>
-                    <h1>PDG ARTEX </h1>
-                    <p>
-                      Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise
-                      située à Mahdia, en Tunisie. Passionné par l'industrie textile, il a fondé l'entreprise
-                      avec la vision de créer des produits de qualité, alliant tradition et innovation. Grâce à
-                      son expertise et à son leadership, Artex Textile s'est rapidement imposée comme un acteur
-                      clé dans le secteur textile, contribuant à l'essor économique de la région et à la création
-                      d'emplois.
-                    </p>
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-            <Col xs={12} md={6} xl={5}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                        <img className="d-block w-100" src={headerImg} alt="First slide" />
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-
-      {/* section 2 */}
-      <section className="banner1" id="home">
-        <Container>
-          <Row className="align-items-center">
-            <Col xs={12} md={6} xl={7}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <h1>ARTEX TUNISIE</h1>
-                    <p>
-                      Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise
-                      située à Mahdia, en Tunisie. Passionné par l'industrie textile, il a fondé l'entreprise
-                      avec la vision de créer des produits de qualité, alliant tradition et innovation. Grâce à
-                      son expertise et à son leadership, Artex Textile s'est rapidement imposée comme un acteur
-                      clé dans le secteur textile, contribuant à l'essor économique de la région et à la création
-                      d'emplois.
-                    </p>
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-            <Col xs={12} md={6} xl={5}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <Carousel>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img1} alt="First slide" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img2} alt="Second slide" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img3} alt="Third slide" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img4} alt="Third slide" />
-                      </Carousel.Item>
-                    </Carousel>
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <Contact/>
-      <Footer />
-    </>
-  );
-};
-
-export default About;
+    
+    export default Chevron  ;
+   
+    
