@@ -5,9 +5,9 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import {Skills} from "./components/Skills";
-
+import About from "./components/About.jsx"
 // pages*************
-import About from "./pages/About"; 
+
 import Jacquard from "./pages/Jaccquard.jsx";
 import Classic from "./pages/Classic";
 import TissuPlat from "./pages/TissuPlat";
@@ -42,10 +42,11 @@ function App() {
           <Banner />
           <Skills/>
           <Projects />
+          <About/>
           <Contact />
           <Footer />
         </>} />
-        <Route path="/About" element={<About />} />
+      
         <Route path="/Jacquard" element={<Jacquard />} />
         <Route path="/Classic" element={<Classic />} />
         <Route path="/tissuplat" element={<TissuPlat />} />
