@@ -31,13 +31,13 @@ export const Contact = () => {
     setButtonText("Sending...");
 
     emailjs
-    .send("service_o3we2fr", "template_7qmqzfa", {
+    .send("service_8k4rvou", "template_d4y5i4g", {
       firstName: formDetails.firstName,
       lastName: formDetails.lastName,
       email: formDetails.email,
       phone: formDetails.phone,
       message: formDetails.message,
-    }, "SX-0_3A5vnNiVwxW7")
+    }, "rIHo7xWvbrs6yIs8D")
       .then(
         () => {
           setButtonText("Send");

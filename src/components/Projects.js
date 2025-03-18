@@ -47,7 +47,7 @@ export const Projects = () => {
     },
     {
       title: "JACQUARD",
-      
+      SKU : "SKU 0001",
       imgUrl: [projImg2], 
       link: "/Jacquard",
     },
@@ -148,26 +148,26 @@ export const Projects = () => {
   ];
     const projects3 = [
       {
-        title: "CLASSIC",
-        
+        title: "ROBE",
+        SKU: "sku 001",
         imgUrl: [Im8], 
         link: "/Tunique",
       },
       {
-        title: "JACQUARD",
-        
+        title: "ROBE",
+        SKU: "sku 002",
         imgUrl: [Im7], 
         link: "/Tunique",
       },
       {
-        title: "JACQUARD DIAMOND",
-        
+        title: "robe",
+        SKU: "sku 003",
         imgUrl: [Im6], 
         link: "/Tunique",
       },
       {
-        title: "CHEVRON",
-        
+        title: "panier",
+        SKU: "sku 004",
         imgUrl: [Im4], 
         link: "/Kofa",
       },
