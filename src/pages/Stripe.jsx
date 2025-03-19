@@ -26,70 +26,80 @@ import { Footer } from '../components/Footer.js';
     const products = [
         
         {
-            title: "UNIQUE CHEVRON ",
+            title: "TIRQOUISE ",
             description: "Design BY ARTEX",
+            SKU:"S001",
             imgUrl: projImg1,
             link: "/ProductDstripe",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: " BLEU MARINE",
             description: "Design BY ARTEX",
+            SKU:"S002",
             imgUrl: projImg2,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "VERTE ",
             description: "Design BY ARTEX",
+            SKU:"S003",
             imgUrl: projImg3,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: " VERTE FORET",
             description: "Design BY ARTEX",
+            SKU:"S004",
             imgUrl: projImg4,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: " GRISE",
             description: "Design BY ARTEX",
+            SKU:"S005",
             imgUrl: projImg5,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: " BLEU NUIT",
             description: "Design BY ARTEX",
+            SKU:"S006",
             imgUrl: projImg6,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: " ORANGE",
             description: "Design BY ARTEX",
+            SKU:"S007",
             imgUrl: projImg7,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "ROSE ",
             description: "Design BY ARTEX",
+            SKU:"S008",
             imgUrl: projImg8,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "BLEU CANARD ",
             description: "Design BY ARTEX",
+            SKU:"S009",
             imgUrl: projImg9,
             link: "/ProductDstripe",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "VERTE PISTACHE ",
             description: "Design BY ARTEX",
+            SKU:"S010",
             imgUrl: projImg10,
             link: "/ProductDstripe",
 

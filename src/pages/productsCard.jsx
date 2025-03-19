@@ -11,7 +11,7 @@ export const ProductsCard = ({ title, description, imgUrl, link, SKU }) => {
       <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
-          <h4>{SKU}</h4>
+          <h4>sku :{SKU}</h4>
         </div>
       </div>
       </Link>

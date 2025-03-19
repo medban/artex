@@ -6,6 +6,7 @@ import Img2 from "../assets/img/classic/drack green.jpg";
 import Img3 from "../assets/img/classic/green forest.jpg";
 import Img4 from "../assets/img/classic/pink.jpg";
 import Img5 from "../assets/img/classic/purple.jpg";
+import "../App.css"
 
 import "animate.css";
 import { Footer } from "../components/Footer";
@@ -75,10 +76,14 @@ const ProductDclassic = () => {
 
       
       <Modal show={showModal} onHide={handleClose} centered>
-        <Modal.Body className="text-center">
-          <img src={selectedImage} alt="Zoomed I" className="img-fluid" />
-        </Modal.Body>
-      </Modal>
+  <Modal.Body className="text-center">
+    <img 
+      src={selectedImage} 
+      alt="Zoomed I" 
+      className="img-fluid zoom-image" 
+    />
+  </Modal.Body>
+</Modal>
     </>
   );
 };

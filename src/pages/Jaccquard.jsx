@@ -33,100 +33,134 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         {
-          title: "CLASSIC",
+          title: "BLEU GRISE",
           description: "Design by artex",
+         
+        SKU :"J001",
           imgUrl: [projImg1,],
           link: "/ProductDjacquard", },
         {
-          title: "JACQUARD BERBER",
+          title: "VERTE JAUNE",
           description: "Design BY ARTEX",
+         
+        SKU :"J002",
           imgUrl: projImg2,
           link: "/ProductDjacquard",  },
         {
-          title: "JACQUARD DIAMOND",
+          title: " BLEU ORANGE",
           description: "Design BY ARTEX",
+         
+        SKU :"J003",
           imgUrl: projImg3,
           link: "/ProductDjacquard",  },
         {
-          title: "CHAVRON ",
+          title: "ORANGE BLEU ",
           description: "Design BY ARTEX",
+         
+        SKU :"J004",
           imgUrl: projImg4,
           link: "/ProductDjacquard",  },
         {
-          title: "GRAIN DE CAFE ",
+          title: "ROUGE GRISE ",
           description: "Design BY ARTEX",
+         
+        SKU :"J005",
           imgUrl: projImg5,
           link: "/ProductDjacquard", },
         {
-          title: "UNIQUE jacquard ",
+          title: "ROUGE BLEU ",
           description: "Design BY ARTEX",
+         
+        SKU :"J006",
           imgUrl: projImg6,
           link: "/ProductDjacquard",
         },
 
           {
-            title: "UNIQUE jacquard ",
+            title: "GRISE ",
             description: "Design BY ARTEX",
+                  SKU :"J007",
+
             imgUrl: projImg12,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "JAUNE",
             description: "Design BY ARTEX",
+                  SKU :"J008",
+
             imgUrl: projImg13,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "BLEU",
             description: "Design BY ARTEX",
+                  SKU :"J009",
+
             imgUrl: projImg14,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "ROUGE",
             description: "Design BY ARTEX",
+                  SKU :"J010",
+
             imgUrl: projImg15,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "BLEU ORANGE",
             description: "Design BY ARTEX",
+                  SKU :"J011",
+
             imgUrl: projImg16,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "ORANGE ",
             description: "Design BY ARTEX",
+                  SKU :"J012",
+
             imgUrl: projImg17,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "BORDEAUX",
             description: "Design BY ARTEX",
+                  SKU :"J013",
+
             imgUrl: projImg18,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "ORANGE",
             description: "Design BY ARTEX",
+                  SKU :"J014",
+
             imgUrl: projImg19,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "BLEU MARINE",
             description: "Design BY ARTEX",
+                  SKU :"J015",
+
             imgUrl: projImg20,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "VERTE FORET",
             description: "Design BY ARTEX",
+                  SKU :"J016",
+
             imgUrl: projImg21,
             link: "/ProductDjacquard",
           },
           {
-            title: "UNIQUE jacquard ",
+            title: "BLEU ",
             description: "Design BY ARTEX",
+                  SKU :"J017",
+
             imgUrl: projImg22,
             link: "/ProductDjacquard",
           },

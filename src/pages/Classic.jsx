@@ -19,36 +19,41 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         {
-          title: "CLASSIC",
+          title: "BLEU CANARD",
           description: "Design by artex",
+          SKU :"c001",
           imgUrl: projImg1,
           link: "/ProductDclassic",
 
         },
         {
-          title: "JACQUARD BERBER",
+          title: "VERTE",
           description: "Design BY ARTEX",
+          SKU :"c002",
           imgUrl: projImg2,
           link: "/ProductDclassic",
 
         },
         {
-          title: "JACQUARD DIAMOND",
+          title: "VERT FORÊT",
           description: "Design BY ARTEX",
+          SKU :" c003",
           imgUrl: projImg3,
           link: "/ProductDclassic",
 
         },
         {
-          title: "CHAVRON ",
+          title: "ORANGE ",
           description: "Design BY ARTEX",
+          SKU :"c004",
           imgUrl: projImg4,
           link: "/ProductDclassic",
 
         },
         {
-          title: "GRAIN DE CAFE ",
+          title: "VIOLETTE",
           description: "Design BY ARTEX",
+          SKU :"c005",
           imgUrl: projImg5,
           link: "/ProductDclassic",
 
@@ -68,7 +73,7 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>GRAIN DE CAFE </h2>
+                    <h2>NID D'ABEILLLE</h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      

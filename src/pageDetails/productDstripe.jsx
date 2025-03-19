@@ -13,6 +13,7 @@ import Img9 from "../assets/img/stripe/tirqose.jpg";
 import Img10 from "../assets/img/stripe/verte.jpg";
 
 import "animate.css";
+import "../App.css"
 
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
@@ -85,10 +86,14 @@ const ProductDstripe = () => {
 
       
       <Modal show={showModal} onHide={handleClose} centered>
-        <Modal.Body className="text-center">
-          <img src={selectedImage} alt="Zoomed I" className="img-fluid" />
-        </Modal.Body>
-      </Modal>
+  <Modal.Body className="text-center">
+    <img 
+      src={selectedImage} 
+      alt="Zoomed I" 
+      className="img-fluid zoom-image" 
+    />
+  </Modal.Body>
+</Modal>
     </>
   );
 };
