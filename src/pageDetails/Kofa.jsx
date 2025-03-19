@@ -10,7 +10,7 @@ import Im5 from "../assets/img/soi/TUNIQUE/T4.JPG";
 import "animate.css";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
-
+import "../App.css"
 const images = [
   { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
   { src: Im2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
@@ -75,10 +75,14 @@ const Kofa = () => {
       <Footer />
 
       <Modal show={showModal} onHide={handleClose} centered>
-        <Modal.Body className="text-center">
-        <img src={selectedImage} alt={selectedImage} className="img-fluid" />
-        </Modal.Body>
-      </Modal>
+  <Modal.Body className="text-center">
+    <img 
+      src={selectedImage} 
+      alt="Zoomed I" 
+      className="img-fluid zoom-image" 
+    />
+  </Modal.Body>
+</Modal>
     </>
   );
 };

@@ -2,12 +2,7 @@ import { useEffect } from "react";
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProductsCard } from "./productsCard.jsx";
 
-import projImg1 from "../assets/img/DAIMOND/1.JPG";
-import projImg2 from "../assets/img/DAIMOND/2.JPG";
-import projImg3 from "../assets/img/DAIMOND/3.JPG";
-import projImg4 from "../assets/img/DAIMOND/4.JPG";
-import projImg5 from "../assets/img/DAIMOND/5.JPG";
-import projImg6 from "../assets/img/DAIMOND/6.JPG";
+
 import projImg7 from "../assets/img/DAIMOND/7.JPG";
 import projImg8 from "../assets/img/DAIMOND/8.JPG";
 import projImg9 from "../assets/img/DAIMOND/9.JPG";
@@ -26,65 +21,35 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         
-        {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg1,
-            link: "/DiamondCotton",
-          },
+       
           {
-            title: "UNIQUE CHEVRON ",
+            title: "BLEU TURQUOISE",
             description: "Design BY ARTEX",
-            imgUrl: projImg2,
-            link: "/DiamondCotton",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg3,
-            link: "/DiamondCotton",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg4,
-            link: "/DiamondCotton",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg5,
-            link: "/DiamondCotton",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg6,
-            link: "/DiamondCotton",
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
+            SKU:"D001",
             imgUrl: projImg7,
             link: "/DiamondCotton",
           }, {
-            title: "UNIQUE CHEVRON ",
+            title: "VERTE FORET",
             description: "Design BY ARTEX",
+            SKU:"D002",
             imgUrl: projImg8,
             link: "/DiamondCotton",
           }, {
-            title: "UNIQUE CHEVRON ",
+            title: "NOIRE",
             description: "Design BY ARTEX",
+            SKU:"D003",
             imgUrl: projImg9,
             link: "/DiamondCotton",
           }, {
-            title: "UNIQUE CHEVRON ",
+            title: "BLEU",
             description: "Design BY ARTEX",
+            SKU:"D004",
             imgUrl: projImg10,
             link: "/DiamondCotton",
           }, {
-            title: "UNIQUE CHEVRON ",
+            title: "GRISE",
             description: "Design BY ARTEX",
+            SKU:"D005",
             imgUrl: projImg11,
             link: "/DiamondCotton",
           },

@@ -10,6 +10,7 @@ import Img5 from "../assets/img/jacquard/diamond/purpule diamond.jpg";
 import "animate.css";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
+import "../App.css"
 
 const images = [
   { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
@@ -74,10 +75,14 @@ const ProductDjacquardDiamond = () => {
       <Footer />
 
       <Modal show={showModal} onHide={handleClose} centered>
-        <Modal.Body className="text-center">
-        <img src={selectedImage} alt={selectedImage} className="img-fluid" />
-        </Modal.Body>
-      </Modal>
+  <Modal.Body className="text-center">
+    <img 
+      src={selectedImage} 
+      alt="Zoomed I" 
+      className="img-fluid zoom-image" 
+    />
+  </Modal.Body>
+</Modal>
     </>
   );
 };

@@ -1,12 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col, Carousel, Modal } from "react-bootstrap";
 
-import Im1 from "../assets/img/DAIMOND/1.JPG";
-import Im2 from "../assets/img/DAIMOND/2.JPG";
-import Im3 from "../assets/img/DAIMOND/3.JPG";
-import Im4 from "../assets/img/DAIMOND/4.JPG";
-import Im5 from "../assets/img/DAIMOND/5.JPG";
-import Im6 from "../assets/img/DAIMOND/6.JPG";
 import Im7 from "../assets/img/DAIMOND/7.JPG";
 import Im8 from "../assets/img/DAIMOND/8.JPG";
 import Im9 from "../assets/img/DAIMOND/9.JPG";
@@ -16,14 +10,9 @@ import Im11 from "../assets/img/DAIMOND/11.JPG";
 import "animate.css";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
+import "../App.css"
 
 const images = [
-  { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Im2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Im3, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Im4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Im5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Im6, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
   { src: Im7, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
   { src: Im8, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
   { src: Im9, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
@@ -87,10 +76,14 @@ const DiamondCotton = () => {
       <Footer />
 
       <Modal show={showModal} onHide={handleClose} centered>
-        <Modal.Body className="text-center">
-        <img src={selectedImage} alt={selectedImage} className="img-fluid" />
-        </Modal.Body>
-      </Modal>
+  <Modal.Body className="text-center">
+    <img 
+      src={selectedImage} 
+      alt="Zoomed I" 
+      className="img-fluid zoom-image" 
+    />
+  </Modal.Body>
+</Modal>
     </>
   );
 };

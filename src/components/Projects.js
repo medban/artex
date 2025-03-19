@@ -4,14 +4,14 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import "../App.css"
 import projImg1 from "../assets/img/classic .jpg";
 import projImg2 from "../assets/img/jacquard berber.jpg";
 import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/TISSU PLAT.jpg";
-import projImg7 from "../assets/img/DAIMOND/1.JPG";
+import projImg7 from "../assets/img/DAIMOND/7.JPG";
 
 /***** DC 2 ******/
 import Img1 from "../assets/img/soi/a.JPG";
@@ -35,19 +35,46 @@ import Im6 from "../assets/img/soi/TUNIQUE/T5.JPG";
 import Im7 from "../assets/img/soi/TUNIQUE/T6.JPG";
 import Im8 from "../assets/img/soi/TUNIQUE/T7.JPG";
 
+/********DC 4  **************/
+import ImE1 from "../assets/img/pack/servietteblanche.webp";
+import ImE2 from "../assets/img/pack/serviettebleuciel.webp";
+import ImE3 from "../assets/img/pack/serviettebleumarine.webp";
+import ImE4 from "../assets/img/pack/serviettegrise.webp";
+import ImE5 from "../assets/img/pack/servietteoranger.webp";
+import ImE6 from "../assets/img/pack/servietteturquoise.webp";
+import ImE7 from "../assets/img/pack/servietteverte.webp";
+import ImE8 from "../assets/img/pack/servietteverteforet.webp";
+
+/************dc 5 *********** */
+import Imj1 from "../assets/img/DAIMOND/1.JPG";
+import Imj2 from "../assets/img/DAIMOND/2.JPG";
+import Imj3 from "../assets/img/DAIMOND/3.JPG";
+import Imj4 from "../assets/img/DAIMOND/4.JPG";
+import Imj5 from "../assets/img/DAIMOND/5.JPG";
+import Imj6 from "../assets/img/DAIMOND/6.JPG";
+import Imj7 from "../assets/img/jeter/XXL-1-1.jpg";
+import Imj8 from "../assets/img/jeter/XXL-10-2.jpg";
+import Imj9 from "../assets/img/jeter/XXL-15.jpg";
+import Imj10 from "../assets/img/jeter/XXL-16-1.jpg";
+import Imj11 from "../assets/img/jeter/XXL-2.jpg";
+import Imj12 from "../assets/img/jeter/XXL-3.jpg";
+import Imj13 from "../assets/img/jeter/XXL-4-.jpg";
+import Imj14 from "../assets/img/jeter/XXL-5.jpg";
+import Imj15 from "../assets/img/jeter/XXL-7.jpg";
+
 export const Projects = () => {
 
 /******DATA CATAGORIE 1 ********/
   const projects = [
     {
-      title: "CLASSIC",
+      title: "NID D'ABEILLLE",
       
       imgUrl: [projImg1,], 
       link: "/Classic",
     },
     {
       title: "JACQUARD",
-      SKU : "SKU 0001",
+   
       imgUrl: [projImg2], 
       link: "/Jacquard",
     },
@@ -70,13 +97,13 @@ export const Projects = () => {
       link: "/grainDecafe",
     },
     {
-      title: "TISSU PLAT",
+      title: "FOUTA CLASSIC",
       
       imgUrl: [projImg6], 
       link: "/tissuplat",
     },
     {
-      title: "TISSU PLAT",
+      title: "DIAMOND",
       
       imgUrl: [projImg7], 
       link: "/Diamond",
@@ -178,7 +205,7 @@ export const Projects = () => {
         link: "/Kofa",
       },
       {
-        title: "TISSU PLAT",
+        title: "FOUTA CLASSIC",
         
         imgUrl: [Im3], 
         link: "/Kofa",
@@ -196,7 +223,183 @@ export const Projects = () => {
         link: "/Kofa",
       },
     ];
+    /******dc4 ******/
+    const projects4 = [
+      {
+        title: "ECRU",
+       
+        
+        imgUrl: ImE1,
+        link: "/Packs",
+  
+      },
+      {
+        title: "BLEU CANARD",
+       
+        imgUrl: ImE2,
+        link: "/Packs",
 
+      },
+      {
+        title: "BLEU MARINE",
+       
+        imgUrl: ImE3,
+        link: "/Packs",
+
+  
+      },
+     
+      {
+        title: "GRIS",
+        
+        imgUrl: ImE4,
+        link: "/Packs",
+
+  
+      },
+      {
+        title: "ORANGE",
+        
+        imgUrl: ImE5,
+        link: "/Packs",
+
+  
+      },
+      {
+        title: "BLEU TURQUOISE",
+        
+        imgUrl: ImE6,
+        link: "/Packs",
+
+  
+      },
+      {
+        title: "GRIS CHARBON",
+        
+        imgUrl: ImE7,
+        link: "/Packs",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+        
+        imgUrl: ImE8,
+        link: "/Packs",
+
+  
+      },
+    ]
+    const projects5 = [
+      {
+        title: "BLUE",
+        
+        imgUrl: [Imj1,], 
+        link: "/Jeters",
+      },
+      {
+        title: "PINK",
+        
+        imgUrl: [Imj2], 
+        link: "/Jeters",
+      },
+      {
+        title: "BIEGE",
+        
+        imgUrl: [Imj3], 
+        link: "/Jeters ",
+      },
+      {
+        title: "GREEN",
+        
+        imgUrl: [Imj4], 
+        link: "/Jeters",
+      },
+      {
+        title: "DRAK BLUE",
+        
+        imgUrl: [Imj5], 
+        link: "/Jeters",
+      },
+      {
+        title: "PISTASHIO",
+        
+        imgUrl: [Imj6], 
+        link: "/Jeters",
+      },
+      {
+        title: "GRIS CHARBON",
+       
+        imgUrl: Imj7,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj8,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj9,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj10,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj11,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj12,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj13,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj14,
+        link: "/Jeters",
+
+  
+      },
+      {
+        title: "VERTE FORET",
+       
+        imgUrl: Imj15,
+        link: "/Jeters",
+
+  
+      },
+    ]
 
   return (
     <section className="project" id="project" >
@@ -217,7 +420,13 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">ECHARPE</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">SERVIETTE</Nav.Link>
+                      <Nav.Link eventKey="third">FOUTA </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="FOR">JETER</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="FIF">PACK</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -255,6 +464,36 @@ export const Projects = () => {
                     <Row>
                         {
                           projects3.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                   </Tab.Pane>
+
+                   <Tab.Pane eventKey="FOR">
+                    <Row>
+                        {
+                          projects5.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                   </Tab.Pane>
+
+                   <Tab.Pane eventKey="FIF">
+                    <Row>
+                        {
+                          projects4.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}

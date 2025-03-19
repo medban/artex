@@ -9,6 +9,7 @@ import Im3 from "../assets/img/soi/TUNIQUE/T7.JPG";
 import "animate.css";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
+import "../App.css"
 
 const images = [
   { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
@@ -73,10 +74,14 @@ const Tunique = () => {
       <Footer />
 
       <Modal show={showModal} onHide={handleClose} centered>
-        <Modal.Body className="text-center">
-        <img src={selectedImage} alt={selectedImage} className="img-fluid" />
-        </Modal.Body>
-      </Modal>
+  <Modal.Body className="text-center">
+    <img 
+      src={selectedImage} 
+      alt="Zoomed I" 
+      className="img-fluid zoom-image" 
+    />
+  </Modal.Body>
+</Modal>
     </>
   );
 };

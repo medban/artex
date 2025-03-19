@@ -16,10 +16,7 @@ import projImg12 from "../assets/img/tissu plat/rose phachia.jpg";
 import projImg13 from "../assets/img/tissu plat/rouge.jpg";
 import projImg14 from "../assets/img/tissu plat/verte brasil.jpg";
 import projImg15 from "../assets/img/tissu plat/verte d'eau.jpg";
-import projImg16 from "../assets/img/tissu plat/1.JPG";
-import projImg17 from "../assets/img/tissu plat/2.JPG";
-import projImg18 from "../assets/img/tissu plat/3.JPG";
-import projImg19 from "../assets/img/tissu plat/4.JPG";
+
 
 import "animate.css"
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -33,129 +30,120 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         {
-          title: "CLASSIC",
+          title: "BEIGE",
           description: "Design by artex",
+          SKU :"FC001",
           imgUrl: [projImg1,],
           link: "/ProductDtissuplat",
         },
         {
-          title: "JACQUARD BERBER",
+          title: "BLEU MARINE",
           description: "Design BY ARTEX",
+          SKU :"FC002",
           imgUrl: projImg2,
           link: "/ProductDtissuplat",
         },
         {
-          title: "JACQUARD DIAMOND",
+          title: "VERTE FORET",
           description: "Design BY ARTEX",
+          SKU :"FC003",
           imgUrl: projImg3,
           link: "/ProductDtissuplat",
         },
         {
-          title: "CHAVRON ",
+          title: "GRISE ",
           description: "Design BY ARTEX",
+          SKU :"FC004",
           imgUrl: projImg4,
           link: "/ProductDtissuplat",
         },
         {
-          title: "GRAIN DE CAFE ",
+          title: "JAUNE",
           description: "Design BY ARTEX",
+          SKU :"FC005",
           imgUrl: projImg5,
           link: "/ProductDtissuplat",
         },
         {
-          title: "UNIQUE CHEVRON ",
+          title: "BEIGE ",
           description: "Design BY ARTEX",
+          SKU :"FC006",
           imgUrl: projImg6,
           link: "/ProductDtissuplat",
 
         },
         {
-            title: "UNIQUE CHEVRON ",
+            title: "MARON",
             description: "Design BY ARTEX",
+            SKU :"FC007",
             imgUrl: projImg7,
       
             link: "/ProductDtissuplat",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "NOIRE",
             description: "Design BY ARTEX",
+            SKU :"FC008",
             imgUrl: projImg8,
             link: "/ProductDtissuplat",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "ORANGE",
             description: "Design BY ARTEX",
+            SKU :"FC009",
             imgUrl: projImg9,
       
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "VERTE",
             description: "Design BY ARTEX",
+            SKU :"FC010",
             imgUrl: projImg10,
             link: "/ProductDtissuplat",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "ROSE ",
             description: "Design BY ARTEX",
+            SKU :"FC011",
             imgUrl: projImg11,
             link: "/ProductDtissuplat",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "ROSE FUCHSIA ",
             description: "Design BY ARTEX",
+            SKU :"FC012",
             imgUrl: projImg12,
             link: "/ProductDtissuplat",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "BORDEAUX",
             description: "Design BY ARTEX",
+            SKU :"FC013",
             imgUrl: projImg13,
             link: "/ProductDtissuplat",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "VERTE BRASIL",
             description: "Design BY ARTEX",
+            SKU :"FC014",
             imgUrl: projImg14,
             link: "/ProductDtissuplat",
 
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "VERTE",
             description: "Design BY ARTEX",
+            SKU :"FC015",
             imgUrl: projImg15,
             link: "/ProductDtissuplat",
 
           },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg16,
-            link: "/ProductDtissuplat",
-
-          },{
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg17,
-            link: "/ProductDtissuplat",
-
-          },{
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg18,
-            link: "/ProductDtissuplat",
-
-          },{
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            imgUrl: projImg19,
-            link: "/ProductDtissuplat",
-
-          },
+          
          
       ];
     
@@ -172,7 +160,7 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>TISSU PLAT </h2>
+                    <h2>FOUTA CLASSIC </h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      

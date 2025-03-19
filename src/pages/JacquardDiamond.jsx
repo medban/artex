@@ -22,32 +22,37 @@ import { Footer } from '../components/Footer.js';
     const products = [
         
         {
-            title: "UNIQUE CHEVRON ",
+            title: "TURQOISE",
             description: "Design BY ARTEX",
+            SKU:"JD001",
             imgUrl: projImg7,
             link: "/ProductDjacquardDiamond",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "BLEU",
             description: "Design BY ARTEX",
+            SKU:"JD002",
             imgUrl: projImg8,
             link: "/ProductDjacquardDiamond",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "BORDEAUX",
             description: "Design BY ARTEX",
+            SKU:"JD003",
             imgUrl: projImg9,
             link: "/ProductDjacquardDiamond",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "NOIRE",
             description: "Design BY ARTEX",
+            SKU:"JD004",
             imgUrl: projImg10,
             link: "/ProductDjacquardDiamond",
           },
           {
-            title: "UNIQUE CHEVRON ",
+            title: "VIOLETTE",
             description: "Design BY ARTEX",
+            SKU:"JD005",
             imgUrl: projImg11,
             link: "/ProductDjacquardDiamond",
           },
