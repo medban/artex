@@ -19,9 +19,10 @@ import Echarpe from "./pages/Echarpe.jsx";
 import Diamond from "./pages/Diamond.jsx";
 import Packs from "./pages/Pack.jsx";
 import Jeters from "./pages/Jeter.jsx";
+import Nidabeille from "./pages/Nidabeille.jsx";
 /********product details pages **********/
 import ProductDstripe from "./pageDetails/productDstripe.jsx";
-import ProductDecharpe from "./pageDetails/productDecharpe.jsx";
+import ProductDecharpe from "./pageDetails/productDecharpe1.jsx";
 import ProductDclassic from "./pageDetails/productDclassic.jsx";
 import ProductDchevron from "./pageDetails/productDchevron.jsx";
 import ProductDjacquard from "./pageDetails/productDjacquard.jsx";
@@ -32,6 +33,10 @@ import Tunique from "./pageDetails/Tunique.jsx";
 import DiamondCotton from "./pageDetails/DiamondCotton.jsx";
 import Pack from "./pageDetails/Pack.jsx"
 import Jeter from "./pageDetails/Jeter.jsx";
+import ProductDNidabeille from "./pageDetails/productDNidabeille.jsx";
+
+
+
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -63,7 +68,7 @@ function App() {
         <Route path="/Diamond" element={<Diamond/>}/>
         <Route path="/Packs" element={<Packs/>}/>
         <Route path="/Jeters" element={<Jeters/>}/>
-
+        <Route path="/Nidabeille" element={<Nidabeille/>}/>
 
         <Route path="/ProductDecharpe" element={<ProductDecharpe/>}/>
         <Route path="/ProductDstripe" element={<ProductDstripe/>}/>
@@ -77,6 +82,7 @@ function App() {
         <Route path="/DiamondCotton" element={<DiamondCotton/>}/>
         <Route path="/Pack" element={<Pack/>}/>
         <Route path="/Jeter" element={<Jeter/>}/>
+        <Route path="/ProductDNidabeille" element={<ProductDNidabeille/>}/>
       </Routes>
       <ScrollToTopArrow/>
     </div>

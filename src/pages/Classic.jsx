@@ -19,7 +19,7 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         {
-          title: "BLEU CANARD",
+          title: "BLEU AZURIN",
           description: "Design by artex",
           SKU :"c001",
           imgUrl: projImg1,
@@ -27,7 +27,7 @@ import { Footer } from '../components/Footer.js';
 
         },
         {
-          title: "VERTE",
+          title: "BLEU CANARD",
           description: "Design BY ARTEX",
           SKU :"c002",
           imgUrl: projImg2,
@@ -35,7 +35,7 @@ import { Footer } from '../components/Footer.js';
 
         },
         {
-          title: "VERT FORÊT",
+          title: "VERT KAKI",
           description: "Design BY ARTEX",
           SKU :" c003",
           imgUrl: projImg3,
@@ -43,7 +43,7 @@ import { Footer } from '../components/Footer.js';
 
         },
         {
-          title: "ORANGE ",
+          title: "ROUGE CORAIL ",
           description: "Design BY ARTEX",
           SKU :"c004",
           imgUrl: projImg4,

@@ -1,23 +1,24 @@
 import { useEffect } from "react";
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProductsCard } from "./productsCard.jsx";
-import projImg1 from "../assets/img/jacquard/berber/blue berber.jpg";
-import projImg2 from "../assets/img/jacquard/berber/blue gold berber.jpg";
-import projImg3 from "../assets/img/jacquard/berber/blue orange berber.jpg";
-import projImg4 from "../assets/img/jacquard/berber/orange blue berber.jpg";
-import projImg5 from "../assets/img/jacquard/berber/rouge berber.jpg";
-import projImg6 from "../assets/img/jacquard/berber/rouge blue berber.jpg";
-import projImg12 from "../assets/img/jacquard/leaf/gray leaf.jpg";
-import projImg13 from "../assets/img/jacquard/leaf/leaf gold.jpg";
-import projImg14 from "../assets/img/jacquard/leaf/leaf blue.jpg";
-import projImg15 from "../assets/img/jacquard/leaf/leaf red.jpg";
-import projImg16 from "../assets/img/jacquard/leaf/jac orange blue.jpg";
-import projImg17 from "../assets/img/jacquard/leaf/jac orange.jpg";
-import projImg18 from "../assets/img/jacquard/bordeaux tortue.jpg";
-import projImg19 from "../assets/img/jacquard/rouge tortue.jpg";
-import projImg20 from "../assets/img/jacquard/tortie.jpg";
-import projImg21 from "../assets/img/jacquard/verte tortue.jpg";
-import projImg22 from "../assets/img/jacquard/caree blue.jpg";
+import projImg1 from "../assets/img/nid beille classic/beige.JPG";
+import projImg2 from "../assets/img/nid beille classic/blanche.JPG";
+import projImg3 from "../assets/img/nid beille classic/bleubalnche.JPG";
+import projImg4 from "../assets/img/nid beille classic/bleuciel.JPG";
+import projImg5 from "../assets/img/nid beille classic/bleugris.JPG";
+import projImg6 from "../assets/img/nid beille classic/bleumarine.JPG";
+import projImg12 from "../assets/img/nid beille classic/blue.JPG";
+import projImg13 from "../assets/img/nid beille classic/blueartex.JPG";
+import projImg14 from "../assets/img/nid beille classic/forestgreen.JPG";
+import projImg15 from "../assets/img/nid beille classic/gris.JPG";
+import projImg16 from "../assets/img/nid beille classic/grisorange.JPG";
+import projImg17 from "../assets/img/nid beille classic/jaune.JPG";
+import projImg18 from "../assets/img/nid beille classic/jaunemaron.JPG";
+import projImg19 from "../assets/img/nid beille classic/orange.JPG";
+import projImg20 from "../assets/img/nid beille classic/rose.JPG";
+import projImg22 from "../assets/img/nid beille classic/rosebleu.JPG";
+import projImg23 from "../assets/img/nid beille classic/turquoise.JPG";
+import projImg24 from "../assets/img/nid beille classic/violet.JPG";
 
 
 
@@ -26,145 +27,152 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import { Footer } from '../components/Footer.js';
 
- const Jacquard = () => {
+ const Nidabeille = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
   
     const products = [
         {
-          title: "BLEU GRIS",
+          title: "TAUP",
           description: "Design by artex",
          
-        SKU :"J001",
+         SKU :"AR001",
           imgUrl: [projImg1,],
-          link: "/ProductDjacquard", },
+          link: "/ProductDNidabeille", },
         {
-          title: "VERTE JAUNE",
+          title: "BLANCO",
           description: "Design BY ARTEX",
          
-        SKU :"J002",
+        SKU :"AR002",
           imgUrl: projImg2,
-          link: "/ProductDjacquard",  },
+          link: "/ProductDNidabeille",  },
         {
-          title: " BLEU ORANGE",
+          title: "TURQUOISE",
           description: "Design BY ARTEX",
          
-        SKU :"J003",
+        SKU :"AR003",
           imgUrl: projImg3,
-          link: "/ProductDjacquard",  },
+          link: "/ProductDNidabeille",  },
         {
-          title: "ORANGE BLEU ",
+          title: "BLEU CANARD",
           description: "Design BY ARTEX",
          
-        SKU :"J004",
+        SKU :"AR004",
           imgUrl: projImg4,
-          link: "/ProductDjacquard",  },
+          link: "/ProductDNidabeille",  },
         {
-          title: "ROUGE GRIS ",
+          title: "GRIS BLEU",
           description: "Design BY ARTEX",
          
-        SKU :"J005",
+        SKU :"AR005",
           imgUrl: projImg5,
-          link: "/ProductDjacquard", },
+          link: "/ProductDNidabeille", },
         {
-          title: "ROUGE BLEU ",
+          title: "BLEU MARINE",
           description: "Design BY ARTEX",
          
-        SKU :"J006",
+        SKU :"AR006",
           imgUrl: projImg6,
-          link: "/ProductDjacquard",
+          link: "/ProductDNidabeille",
         },
 
           {
-            title: "GRIS ",
+            title: "VERTE D'EAU ",
             description: "Design BY ARTEX",
-                  SKU :"J007",
+                  SKU :"AR007",
 
             imgUrl: projImg12,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "JAUNE MOTARD",
+            title: "BLEU OR",
             description: "Design BY ARTEX",
-                  SKU :"J008",
+                  SKU :"AR008",
 
             imgUrl: projImg13,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "BLEU TURQUOISE",
+            title: "MARON",
             description: "Design BY ARTEX",
-                  SKU :"J009",
+                  SKU :"AR009",
 
             imgUrl: projImg14,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "ROUGE",
+            title: "GRIS MOYEN",
             description: "Design BY ARTEX",
-                  SKU :"J010",
+                  SKU :"AR010",
 
             imgUrl: projImg15,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "BLEU ORANGE",
+            title: "GRIS ORANGE",
             description: "Design BY ARTEX",
-                  SKU :"J011",
+                  SKU :"AR011",
 
             imgUrl: projImg16,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "ORANGE ",
+            title: "JAUNE GRIS ",
             description: "Design BY ARTEX",
-                  SKU :"J012",
+                  SKU :"AR012",
 
             imgUrl: projImg17,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "BORDEAUX",
+            title: "TAUP JAUNE",
             description: "Design BY ARTEX",
-                  SKU :"J013",
+                  SKU :"AR013",
 
             imgUrl: projImg18,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "ROUGE CORAIL",
+            title: "ORANGE",
             description: "Design BY ARTEX",
-                  SKU :"J014",
+                  SKU :"AR014",
 
             imgUrl: projImg19,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
           {
-            title: "BLEU MARINE",
+            title: "ROSE FUSHIA",
             description: "Design BY ARTEX",
-                  SKU :"J015",
+                  SKU :"AR015",
 
             imgUrl: projImg20,
-            link: "/ProductDjacquard",
-          },
-          {
-            title: "VERTE KAKI",
-            description: "Design BY ARTEX",
-                  SKU :"J016",
-
-            imgUrl: projImg21,
-            link: "/ProductDjacquard",
-          },
-          {
-            title: "BLEU DJEAN ",
-            description: "Design BY ARTEX",
-                  SKU :"J017",
-
-            imgUrl: projImg22,
-            link: "/ProductDjacquard",
+            link: "/ProductDNidabeille",
           },
          
+          {
+            title: "FUCHSIA MARINE",
+            description: "Design BY ARTEX",
+                  SKU :"AR016",
+
+            imgUrl: projImg22,
+            link: "/ProductDNidabeille",
+          },
+          {
+            title: "TURQUOISE ",
+            description: "Design BY ARTEX",
+                  SKU :"AR017",
+
+            imgUrl: projImg23,
+            link: "/ProductDNidabeille",
+          }, {
+            title: "VIOLET ",
+            description: "Design BY ARTEX",
+                  SKU :"AR018",
+
+            imgUrl: projImg24,
+            link: "/ProductDNidabeille",
+          },
       ];
     
       return (
@@ -180,7 +188,7 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>JACQUARD </h2>
+                    <h2>NID D'ABEILLE. JENNY </h2>
                     <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
@@ -214,6 +222,6 @@ import { Footer } from '../components/Footer.js';
       )
     }
     
-    export default Jacquard ;
+    export default Nidabeille ;
    
     

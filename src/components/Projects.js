@@ -12,6 +12,9 @@ import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/TISSU PLAT.jpg";
 import projImg7 from "../assets/img/DAIMOND/7.JPG";
+import projImg8 from "../assets/img/nid beille classic/blueartex.JPG";
+import projImg9 from "../assets/img/nid beille/_MG_8501.JPG"
+
 
 /***** DC 2 ******/
 import Img1 from "../assets/img/soi/a.JPG";
@@ -106,6 +109,18 @@ export const Projects = () => {
       title: "DIAMOND",
       
       imgUrl: [projImg7], 
+      link: "/Diamond",
+    },
+    {
+      title: "NID D'ABEILLLE",
+      
+      imgUrl: [projImg8], 
+      link: "/Nidabeille",
+    },
+    {
+      title: "NID D'ABEILLLE",
+      
+      imgUrl: [projImg9], 
       link: "/Diamond",
     },
   ];

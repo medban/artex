@@ -30,7 +30,7 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         {
-          title: "BEIGE",
+          title: "TAUP",
           description: "Design by artex",
           SKU :"FC001",
           imgUrl: [projImg1,],
@@ -44,14 +44,14 @@ import { Footer } from '../components/Footer.js';
           link: "/ProductDtissuplat",
         },
         {
-          title: "VERTE FORET",
+          title: "VERTE KAKI",
           description: "Design BY ARTEX",
           SKU :"FC003",
           imgUrl: projImg3,
           link: "/ProductDtissuplat",
         },
         {
-          title: "GRISE ",
+          title: "GRIS CLAIR ",
           description: "Design BY ARTEX",
           SKU :"FC004",
           imgUrl: projImg4,
@@ -65,7 +65,7 @@ import { Footer } from '../components/Footer.js';
           link: "/ProductDtissuplat",
         },
         {
-          title: "BEIGE ",
+          title: "MARON ",
           description: "Design BY ARTEX",
           SKU :"FC006",
           imgUrl: projImg6,
@@ -73,7 +73,7 @@ import { Footer } from '../components/Footer.js';
 
         },
         {
-            title: "MARON",
+            title: "TERECOTTA",
             description: "Design BY ARTEX",
             SKU :"FC007",
             imgUrl: projImg7,
@@ -96,7 +96,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE",
+            title: "VERTE CANARD",
             description: "Design BY ARTEX",
             SKU :"FC010",
             imgUrl: projImg10,
@@ -104,7 +104,7 @@ import { Footer } from '../components/Footer.js';
 
           },
           {
-            title: "ROSE ",
+            title: "ROSE BEBE",
             description: "Design BY ARTEX",
             SKU :"FC011",
             imgUrl: projImg11,
@@ -112,7 +112,7 @@ import { Footer } from '../components/Footer.js';
 
           },
           {
-            title: "ROSE FUCHSIA ",
+            title: "ROSE FUSHIA ",
             description: "Design BY ARTEX",
             SKU :"FC012",
             imgUrl: projImg12,
@@ -120,7 +120,7 @@ import { Footer } from '../components/Footer.js';
 
           },
           {
-            title: "BORDEAUX",
+            title: "ROUGE",
             description: "Design BY ARTEX",
             SKU :"FC013",
             imgUrl: projImg13,
@@ -136,7 +136,7 @@ import { Footer } from '../components/Footer.js';
 
           },
           {
-            title: "VERTE",
+            title: "VERTE D'EAU",
             description: "Design BY ARTEX",
             SKU :"FC015",
             imgUrl: projImg15,

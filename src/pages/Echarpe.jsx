@@ -32,6 +32,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E001",
             imgUrl: projImg3,
             link: "/ProductDecharpe",
       
@@ -39,6 +40,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E002",
             imgUrl: projImg4,
             link: "/ProductDecharpe",
 
@@ -46,6 +48,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E003",
             imgUrl: projImg5,
             link: "/ProductDecharpe",
 
@@ -55,6 +58,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E004",
             imgUrl: projImg6,
             link: "/ProductDecharpe",
 
@@ -63,6 +67,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E005",
             imgUrl: projImg2,
             link: "/ProductDecharpe",
 
@@ -71,6 +76,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E006",
             imgUrl: projImg1,
             link: "/ProductDecharpe",
 
@@ -79,6 +85,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E007",
             imgUrl: projImg7,
             link: "/ProductDecharpe",
 
@@ -87,6 +94,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E008",
             imgUrl: projImg8,
             link: "/ProductDecharpe",
 
@@ -95,6 +103,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E009",
             imgUrl: projImg9,
             link: "/ProductDecharpe",
 
@@ -103,6 +112,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E010",
             imgUrl: projImg10,
             link: "/ProductDecharpe",
 
@@ -111,6 +121,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E011",
             imgUrl: projImg11,
             link: "/ProductDecharpe",
 
@@ -119,6 +130,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E012",
             imgUrl: projImg12,
             link: "/ProductDecharpe",
 
@@ -127,6 +139,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "UNIQUE CHEVRON ",
             description: "Design BY ARTEX",
+            SKU :"E013",
             imgUrl: projImg13,
             link: "/ProductDecharpe",
 

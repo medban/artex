@@ -13,11 +13,11 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Im7, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Im8, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Im9, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Im10, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Im11, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
+  { src: Im7, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D001" },
+  { src: Im8, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D002" },
+  { src: Im9, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D003" },
+  { src: Im10, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D004" },
+  { src: Im11, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D005" },
 
 
 ];
@@ -47,6 +47,8 @@ const DiamondCotton = () => {
                     <span className="tagline">ARTEX</span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
+
                   </div>
                 )}
               </TrackVisibility>

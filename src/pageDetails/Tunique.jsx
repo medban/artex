@@ -12,9 +12,9 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Im2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Im3, text: "Écharpe élégante en lin, alliant confort et style." },
+  { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"R001" },
+  { src: Im2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"R002" },
+  { src: Im3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"R003" },
 
  
 
@@ -45,6 +45,7 @@ const Tunique = () => {
                     <span className="tagline">ARTEX</span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>
                 )}
               </TrackVisibility>

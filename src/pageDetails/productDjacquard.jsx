@@ -25,23 +25,23 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Img13, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Img14, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img15, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img20, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img21, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img22, text: "Design moderne et raffiné, adapté à toutes vos tenues." }
+  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku :"J001" },
+  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku :"J002" },
+  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku :"J003" },
+  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku :"J004" },
+  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku :"J005" },
+  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J006" },
+  { src: Img12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku :"J007" },
+  { src: Img13, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku :"J008" },
+  { src: Img14, text: "Écharpe élégante en lin, alliant confort et style.",sku :"J009" },
+  { src: Img15, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku :"J010" },
+  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku :"J011" },
+  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J012" },
+  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J013" },
+  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J014" },
+  { src: Img20, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J015" },
+  { src: Img21, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J016" },
+  { src: Img22, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J017" }
 
 ];
 
@@ -71,6 +71,7 @@ const ProductDjacquard = () => {
                     <h1>ARTEX TUNISIE</h1>
                     <h2>JACQUADR</h2>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>
                 )}
               </TrackVisibility>
