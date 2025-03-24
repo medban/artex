@@ -33,7 +33,7 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         {
-          title: "BLEU GRISE",
+          title: "BLEU GRIS",
           description: "Design by artex",
          
         SKU :"J001",
@@ -61,7 +61,7 @@ import { Footer } from '../components/Footer.js';
           imgUrl: projImg4,
           link: "/ProductDjacquard",  },
         {
-          title: "ROUGE GRISE ",
+          title: "ROUGE GRIS ",
           description: "Design BY ARTEX",
          
         SKU :"J005",
@@ -77,7 +77,7 @@ import { Footer } from '../components/Footer.js';
         },
 
           {
-            title: "GRISE ",
+            title: "GRIS ",
             description: "Design BY ARTEX",
                   SKU :"J007",
 
@@ -85,7 +85,7 @@ import { Footer } from '../components/Footer.js';
             link: "/ProductDjacquard",
           },
           {
-            title: "JAUNE",
+            title: "JAUNE MOTARD",
             description: "Design BY ARTEX",
                   SKU :"J008",
 
@@ -93,7 +93,7 @@ import { Footer } from '../components/Footer.js';
             link: "/ProductDjacquard",
           },
           {
-            title: "BLEU",
+            title: "BLEU TURQUOISE",
             description: "Design BY ARTEX",
                   SKU :"J009",
 
@@ -133,7 +133,7 @@ import { Footer } from '../components/Footer.js';
             link: "/ProductDjacquard",
           },
           {
-            title: "ORANGE",
+            title: "ROUGE CORAIL",
             description: "Design BY ARTEX",
                   SKU :"J014",
 
@@ -149,7 +149,7 @@ import { Footer } from '../components/Footer.js';
             link: "/ProductDjacquard",
           },
           {
-            title: "VERTE FORET",
+            title: "VERTE KAKI",
             description: "Design BY ARTEX",
                   SKU :"J016",
 
@@ -157,7 +157,7 @@ import { Footer } from '../components/Footer.js';
             link: "/ProductDjacquard",
           },
           {
-            title: "BLEU ",
+            title: "BLEU DJEAN ",
             description: "Design BY ARTEX",
                   SKU :"J017",
 

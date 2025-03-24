@@ -32,7 +32,7 @@ import { Footer } from '../components/Footer.js';
     const products = [
         
           {
-            title: "ECRU",
+            title: "NOIRE",
             description: "Design BY ARTEX",
 
             SKU :"JT001",
@@ -41,7 +41,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "BLEU CANARD",
+            title: "BORDEAUX",
             description: "Design BY ARTEX",
             SKU :"JT002",
             imgUrl: Imj2,
@@ -49,7 +49,7 @@ import { Footer } from '../components/Footer.js';
 
           },
           {
-            title: "BLEU MARINE",
+            title: "VIOLETE",
             description: "Design BY ARTEX",
             SKU :"JT003",
             imgUrl: Imj3,
@@ -59,7 +59,7 @@ import { Footer } from '../components/Footer.js';
           },
          
           {
-            title: "GRISE",
+            title: "MOTARD",
             description: "Design BY ARTEX",
             SKU :"JT004",
             imgUrl: Imj4,
@@ -68,7 +68,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "ORANGE",
+            title: "GRIS CHARBON",
             description: "Design BY ARTEX",
             SKU :"JT005",
             imgUrl: Imj5,
@@ -77,7 +77,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "BLEU TURQUOISE",
+            title: "ORANGE",
             description: "Design BY ARTEX",
             SKU :"JT006",
             imgUrl: Imj6,
@@ -86,7 +86,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "GRIS CHARBON",
+            title: "MODEL ARTHUR 2/3",
             description: "Design BY ARTEX",
             SKU :"JT007",
             imgUrl: Imj7,
@@ -122,7 +122,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "2/3 DIAMOND",
             description: "Design BY ARTEX",
             SKU :"JT011",
             imgUrl: Imj11,
@@ -149,7 +149,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "UNI 2/3",
             description: "Design BY ARTEX",
             SKU :"JT014",
             imgUrl: Imj14,

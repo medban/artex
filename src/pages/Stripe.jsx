@@ -28,46 +28,46 @@ import { Footer } from '../components/Footer.js';
         {
             title: "TIRQOUISE ",
             description: "Design BY ARTEX",
-            SKU:"S001",
+            SKU:"GC001",
             imgUrl: projImg1,
             link: "/ProductDstripe",
           },
           {
-            title: " BLEU MARINE",
+            title: " BLEU ROI",
             description: "Design BY ARTEX",
-            SKU:"S002",
+            SKU:"GC002",
             imgUrl: projImg2,
             link: "/ProductDstripe",
 
           },
           {
-            title: "VERTE ",
+            title: "VERTE PINED ",
             description: "Design BY ARTEX",
-            SKU:"S003",
+            SKU:"GC003",
             imgUrl: projImg3,
             link: "/ProductDstripe",
 
           },
           {
-            title: " VERTE FORET",
+            title: " VERTE KAKI",
             description: "Design BY ARTEX",
-            SKU:"S004",
+            SKU:"GC004",
             imgUrl: projImg4,
             link: "/ProductDstripe",
 
           },
           {
-            title: " GRISE",
+            title: " TAUP",
             description: "Design BY ARTEX",
-            SKU:"S005",
+            SKU:"GC005",
             imgUrl: projImg5,
             link: "/ProductDstripe",
 
           },
           {
-            title: " BLEU NUIT",
+            title: " BLEU DJEAN",
             description: "Design BY ARTEX",
-            SKU:"S006",
+            SKU:"GC006",
             imgUrl: projImg6,
             link: "/ProductDstripe",
 
@@ -75,31 +75,31 @@ import { Footer } from '../components/Footer.js';
           {
             title: " ORANGE",
             description: "Design BY ARTEX",
-            SKU:"S007",
+            SKU:"GC007",
             imgUrl: projImg7,
             link: "/ProductDstripe",
 
           },
           {
-            title: "ROSE ",
+            title: "ROSE FUSHIA ",
             description: "Design BY ARTEX",
-            SKU:"S008",
+            SKU:"GC008",
             imgUrl: projImg8,
             link: "/ProductDstripe",
 
           },
           {
-            title: "BLEU CANARD ",
+            title: "VERTE TURQUOISE ",
             description: "Design BY ARTEX",
-            SKU:"S009",
+            SKU:"GC009",
             imgUrl: projImg9,
             link: "/ProductDstripe",
 
           },
           {
-            title: "VERTE PISTACHE ",
+            title: "VERTE BRESIL ",
             description: "Design BY ARTEX",
-            SKU:"S010",
+            SKU:"GC010",
             imgUrl: projImg10,
             link: "/ProductDstripe",
 

@@ -23,13 +23,13 @@ import { Footer } from '../components/Footer.js';
         
        
           {
-            title: "BLEU TURQUOISE",
+            title: "VERTE TURQUOISE",
             description: "Design BY ARTEX",
             SKU:"D001",
             imgUrl: projImg7,
             link: "/DiamondCotton",
           }, {
-            title: "VERTE FORET",
+            title: "VERTE KAKI",
             description: "Design BY ARTEX",
             SKU:"D002",
             imgUrl: projImg8,
@@ -41,13 +41,13 @@ import { Footer } from '../components/Footer.js';
             imgUrl: projImg9,
             link: "/DiamondCotton",
           }, {
-            title: "BLEU",
+            title: "BLEU ROI",
             description: "Design BY ARTEX",
             SKU:"D004",
             imgUrl: projImg10,
             link: "/DiamondCotton",
           }, {
-            title: "GRISE",
+            title: "GRIS CLAIR",
             description: "Design BY ARTEX",
             SKU:"D005",
             imgUrl: projImg11,

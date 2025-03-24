@@ -21,19 +21,19 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img7, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img8, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img9, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img10, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img11, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img12, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
-  { src: Img13, text: "Design moderne et raffiné, adapté à toutes vos tenues." },
+  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"E001" },
+  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"E002" },
+  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"E003" },
+  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"E004" },
+  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"E005" },
+  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E006" },
+  { src: Img7, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E007" },
+  { src: Img8, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E008" },
+  { src: Img9, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E009" },
+  { src: Img10, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E010" },
+  { src: Img11, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E011" },
+  { src: Img12, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E012" },
+  { src: Img13, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E013" },
 
 ];
 
@@ -62,6 +62,7 @@ const ProductDecharpe = () => {
                     <span className="tagline">ARTEX</span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>
                 )}
               </TrackVisibility>

@@ -25,21 +25,21 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Imj3, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Imj4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Imj5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Imj6, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj7, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj8, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj9, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj10, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj11, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj13, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj14, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Imj15, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
+  { src: Imj1, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT001" },
+  { src: Imj2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"JT002" },
+  { src: Imj3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"JT002" },
+  { src: Imj4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"JT004" },
+  { src: Imj5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"JT005" },
+  { src: Imj6, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT006" },
+  { src: Imj7, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT007" },
+  { src: Imj8, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT008" },
+  { src: Imj9, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT009" },
+  { src: Imj10, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT010" },
+  { src: Imj11, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT011" },
+  { src: Imj12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT012" },
+  { src: Imj13, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT013" },
+  { src: Imj14, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT014" },
+  { src: Imj15, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JT0015" },
  
  
 
@@ -71,6 +71,8 @@ const Jeter = () => {
                     <span className="tagline">ARTEX</span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
+
                   </div>
                 )}
               </TrackVisibility>

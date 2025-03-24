@@ -26,23 +26,23 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img6, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Img7, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Img8, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img9, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img10, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img11, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img12, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img13, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img14, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img15, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
-  { src: Img17, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." }
+  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"CH001" },
+  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"CH002" },
+  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"CH003" },
+  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"CH004" },
+  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH005" },
+  { src: Img6, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"CH006" },
+  { src: Img7, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"CH007" },
+  { src: Img8, text: "Écharpe élégante en lin, alliant confort et style.",sku:"CH008" },
+  { src: Img9, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"CH009" },
+  { src: Img10, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH010" },
+  { src: Img11, text: "Écharpe élégante en lin, alliant confort et style.",sku:"CH011" },
+  { src: Img12, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"CH012" },
+  { src: Img13, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH013" },
+  { src: Img14, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH014" },
+  { src: Img15, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH015" },
+  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH016" },
+  { src: Img17, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"CH017" }
 
   
 ];
@@ -72,6 +72,8 @@ const ProductDchevron = () => {
                     <span className="tagline">ARTEX</span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
+
                   </div>
                 )}
               </TrackVisibility>

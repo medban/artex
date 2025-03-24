@@ -25,7 +25,7 @@ import { Footer } from '../components/Footer.js';
     const products = [
         
           {
-            title: "ECRU",
+            title: "BLANCHE ARGENT",
             description: "Design BY ARTEX",
 
             SKU :"P001",
@@ -34,7 +34,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "BLEU CANARD",
+            title: "VERTE D'EAU",
             description: "Design BY ARTEX",
             SKU :"P002",
             imgUrl: ImE2,
@@ -52,7 +52,7 @@ import { Footer } from '../components/Footer.js';
           },
          
           {
-            title: "GRISE",
+            title: "GRIS CLAIR",
             description: "Design BY ARTEX",
             SKU :"P004",
             imgUrl: ImE4,
@@ -61,7 +61,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "ORANGE",
+            title: "JAUNE SAFRAN",
             description: "Design BY ARTEX",
             SKU :"P005",
             imgUrl: ImE5,
@@ -88,7 +88,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "VERTE MOUSE",
             description: "Design BY ARTEX",
             SKU :"P008",
             imgUrl: ImE8,

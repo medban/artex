@@ -13,11 +13,11 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons." },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style." },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." },
+  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." ,sku:"C001"},
+  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons." ,sku:"C002"},
+  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style." ,sku:"C003"},
+  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." ,sku:"C004"},
+  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." ,sku:"C005"},
  
 ];
 
@@ -46,6 +46,8 @@ const ProductDclassic = () => {
                     <span className="tagline">ARTEX</span>
                     <h1>ARTEX TUNISIE</h1>
                     <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
+
                   </div>
                 )}
               </TrackVisibility>

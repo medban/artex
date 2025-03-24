@@ -1,0 +1,113 @@
+import { useState } from "react";
+import { Container, Row, Col, Carousel, Modal } from "react-bootstrap";
+
+import Img1 from "../assets/img/nid beille classic/beige.JPG";
+import Img2 from "../assets/img/nid beille classic/blanche.JPG";
+import Img3 from "../assets/img/nid beille classic/bleubalnche.JPG";
+import Img4 from "../assets/img/nid beille classic/bleuciel.JPG";
+import Img5 from "../assets/img/nid beille classic/bleugris.JPG";
+import Img6 from "../assets/img/nid beille classic/bleumarine.JPG";
+import Img12 from "../assets/img/nid beille classic/blue.JPG";
+import Img13 from "../assets/img/nid beille classic/blueartex.JPG";
+import Img14 from "../assets/img/nid beille classic/forestgreen.JPG";
+import Img15 from "../assets/img/nid beille classic/gris.JPG";
+import Img16 from "../assets/img/nid beille classic/grisorange.JPG";
+import Img17 from "../assets/img/nid beille classic/jaune.JPG";
+import Img18 from "../assets/img/nid beille classic/jaunemaron.JPG";
+import Img19 from "../assets/img/nid beille classic/orange.JPG";
+import Img20 from "../assets/img/nid beille classic/rose.JPG";
+import Img22 from "../assets/img/nid beille classic/rosebleu.JPG";
+import Img23 from "../assets/img/nid beille classic/turquoise.JPG";
+import Img24 from "../assets/img/nid beille classic/violet.JPG";
+
+import "animate.css";
+import { Footer } from "../components/Footer";
+import TrackVisibility from "react-on-screen";
+import "../App.css"
+
+const images = [
+  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.", sku: "NIDB001" },
+  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.", sku: "NIDB002" },
+  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.", sku: "NIDB003" },
+  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.", sku: "NIDB004" },
+  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.", sku: "NIDB005" },
+  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB006" },
+  { src: Img12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.", sku: "NIDB007" },
+  { src: Img13, text: "Écharpe en coton doux, idéale pour toutes les saisons.", sku: "NIDB008" },
+  { src: Img14, text: "Écharpe élégante en lin, alliant confort et style.", sku: "NIDB009" },
+  { src: Img15, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.", sku: "NIDB010" },
+  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.", sku: "NIDB011" },
+  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB012" },
+  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB013" },
+  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB014" },
+  { src: Img20, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB015" },
+  { src: Img23, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB016" },
+  { src: Img22, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB017" },
+  { src: Img24, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB018" }
+];
+
+const ProductDNidabeille = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0); 
+
+  const handleShow = (imgSrc) => {
+    setSelectedImage(imgSrc);
+    setShowModal(true);
+  };
+
+  const handleClose = () => setShowModal(false);
+
+  return (
+    <>
+      <section className="banner1" id="home">
+        <Container>
+          <Row className="align-items-center">
+            <Col xs={12} md={6} xl={7}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                    <h1>ARTEX TUNISIE</h1>
+                    <h2>NID D'ABEILLE</h2>
+                    <p>{images[activeIndex].text}</p>
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p> {/* Displaying SKU */}
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+
+            <Col xs={12} md={6} xl={5}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                    <Carousel activeIndex={activeIndex} onSelect={(selectedIndex) => setActiveIndex(selectedIndex)}>
+                      {images.map((item, index) => (
+                        <Carousel.Item key={index} onClick={() => handleShow(item.src)}>
+                          <img className="d-block w-100" src={item.src} alt={`Slide ${index + 1}`} />
+                        </Carousel.Item>
+                      ))}
+                    </Carousel>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      <Footer />
+      
+      <Modal show={showModal} onHide={handleClose} centered>
+        <Modal.Body className="text-center">
+          <img 
+            src={selectedImage} 
+            alt="Zoomed In" 
+            className="img-fluid zoom-image" 
+          />
+        </Modal.Body>
+      </Modal>
+    </>
+  );
+};
+
+export default ProductDNidabeille;

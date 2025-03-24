@@ -29,7 +29,7 @@ import { Footer } from '../components/Footer.js';
             link: "/ProductDjacquardDiamond",
           },
           {
-            title: "BLEU",
+            title: "BLEU ROI",
             description: "Design BY ARTEX",
             SKU:"JD002",
             imgUrl: projImg8,

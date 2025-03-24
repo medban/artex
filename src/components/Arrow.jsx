@@ -17,7 +17,7 @@ const ScrollToTopArrow = () => {
         style={{
           position: 'fixed',
           right: '45px',
-          bottom: '200px',
+          bottom: '50px',
           backgroundColor: '#000',
           color: '#fff',
           border: 'none',
