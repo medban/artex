@@ -20,6 +20,15 @@ import Diamond from "./pages/Diamond.jsx";
 import Packs from "./pages/Pack.jsx";
 import Jeters from "./pages/Jeter.jsx";
 import Nidabeille from "./pages/Nidabeille.jsx";
+import Arcachon from "./pages/Arcachon.jsx";
+import Artex from "./pages/Artex.jsx";
+import Nadia from "./pages/Nadia.jsx";
+import Mykonos from "./pages/Mykonos.jsx";
+import Stbarth from "./pages/Stbarth.jsx";
+import TwidPlat from "./pages/TwidPlat.jsx";
+import PlatDegrader from "./pages/PlatDegrader.jsx";
+
+
 /********product details pages **********/
 import ProductDstripe from "./pageDetails/productDstripe.jsx";
 import ProductDecharpe from "./pageDetails/productDecharpe1.jsx";
@@ -34,9 +43,13 @@ import DiamondCotton from "./pageDetails/DiamondCotton.jsx";
 import Pack from "./pageDetails/Pack.jsx"
 import Jeter from "./pageDetails/Jeter.jsx";
 import ProductDNidabeille from "./pageDetails/productDNidabeille.jsx";
-
-
-
+import ArcachonDET from "./pageDetails/ArcachonDET.jsx";
+import ArtexDet from "./pageDetails/ArtexDet.jsx";
+import NadiaD from "./pageDetails/NadiaD.jsx";
+import MykonosD from "./pageDetails/MykonosD.jsx";
+import StbarthD from "./pageDetails/StbarthD.jsx"
+import TwidPlatD from "./pageDetails/TwidPlatD.jsx";
+import PlatDegraderD from "./pageDetails/PlatDegraderD.jsx";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -69,6 +82,14 @@ function App() {
         <Route path="/Packs" element={<Packs/>}/>
         <Route path="/Jeters" element={<Jeters/>}/>
         <Route path="/Nidabeille" element={<Nidabeille/>}/>
+        <Route path="/Arcachon" element={<Arcachon/>}/>
+        <Route path="/Artex" element={<Artex/>}/>
+        <Route path="/Nadia" element={<Nadia/>}/>
+        <Route path="/Mykonos" element={<Mykonos/>}/>
+       <Route path="/Stbarth" element={<Stbarth/>}/>
+       <Route path="/TwidPlat" element={<TwidPlat/>}/>
+       <Route path="/PlatDegrader" element={<PlatDegrader/>}/>
+
 
         <Route path="/ProductDecharpe" element={<ProductDecharpe/>}/>
         <Route path="/ProductDstripe" element={<ProductDstripe/>}/>
@@ -83,6 +104,15 @@ function App() {
         <Route path="/Pack" element={<Pack/>}/>
         <Route path="/Jeter" element={<Jeter/>}/>
         <Route path="/ProductDNidabeille" element={<ProductDNidabeille/>}/>
+        <Route path="/ArcachonDET" element={<ArcachonDET/>}/>
+        <Route path="/ArtexDet" element={<ArtexDet/>}/>
+        <Route path="/NadiaD" element={<NadiaD/>}/>
+        <Route path="/MykonosD" element={<MykonosD/>}/>
+        <Route path="/StbarthD" element={<StbarthD/>}/>
+        <Route path="/TwidPlatD" element={<TwidPlatD/>}/>
+        <Route path="/PlatDegraderD" element={<PlatDegraderD/>}/>
+
+
       </Routes>
       <ScrollToTopArrow/>
     </div>

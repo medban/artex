@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
@@ -5,6 +6,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import "../App.css"
+
 import projImg1 from "../assets/img/classic .jpg";
 import projImg2 from "../assets/img/jacquard berber.jpg";
 import projImg3 from "../assets/img/jacquard diamond.jpg";
@@ -13,8 +15,14 @@ import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/TISSU PLAT.jpg";
 import projImg7 from "../assets/img/DAIMOND/7.JPG";
 import projImg8 from "../assets/img/nid beille classic/blueartex.JPG";
-import projImg9 from "../assets/img/nid beille/_MG_8501.JPG"
-
+import projImg9 from "../assets/img/nid beille/_MG_8501.JPG";
+import projImg10 from "../assets/img/arcachon/ar1.JPG";
+import projImg11 from "../assets/img/artex/ART03.JPG";
+import projImg12 from "../assets/img/nadia/ND01.JPG";
+import projImg13 from "../assets/img/mykonos/MK001.JPG";
+import projImg14 from "../assets/img/st barth/ST002.JPG";
+import projImg15 from "../assets/img/twid plat/TW001.JPG";
+import projImg16 from "../assets/img/PLAT DEGRADER/PD002.JPG"
 
 /***** DC 2 ******/
 import Img1 from "../assets/img/soi/a.JPG";
@@ -65,7 +73,25 @@ import Imj13 from "../assets/img/jeter/XXL-4-.jpg";
 import Imj14 from "../assets/img/jeter/XXL-5.jpg";
 import Imj15 from "../assets/img/jeter/XXL-7.jpg";
 
+
+
 export const Projects = () => {
+  const [activeTab, setActiveTab] = useState("first");
+
+ 
+  useEffect(() => {
+    const savedTab = sessionStorage.getItem("activeTab");
+    if (savedTab) {
+      setActiveTab(savedTab);
+    }
+  }, []);
+
+ 
+  const handleTabSelect = (selectedKey) => {
+    setActiveTab(selectedKey);
+    sessionStorage.setItem("activeTab", selectedKey);
+  };
+
 
 /******DATA CATAGORIE 1 ********/
   const projects = [
@@ -112,7 +138,7 @@ export const Projects = () => {
       link: "/Diamond",
     },
     {
-      title: "NID D'ABEILLLE",
+      title: "NID D'ABEILLLE JENNY",
       
       imgUrl: [projImg8], 
       link: "/Nidabeille",
@@ -122,6 +148,48 @@ export const Projects = () => {
       
       imgUrl: [projImg9], 
       link: "/Diamond",
+    },
+    {
+      title: "ARCACHON",
+      
+      imgUrl: [projImg10], 
+      link: "/Arcachon",
+    },
+    {
+      title: "ARTEX",
+      
+      imgUrl: [projImg11], 
+      link: "/Artex",
+    },
+    {
+      title: "NADIA",
+      
+      imgUrl: [projImg12], 
+      link: "/Nadia",
+    },
+    {
+      title: "MYKONOS",
+      
+      imgUrl: [projImg13], 
+      link: "/Mykonos",
+    },
+    {
+      title: "SAINT BARTH",
+      
+      imgUrl: [projImg14], 
+      link: "/Stbarth",
+    },
+    {
+      title: "TWID PLAT",
+      
+      imgUrl: [projImg15], 
+      link: "/TwidPlat",
+    },
+    {
+      title: "PLAT DEGRADER",
+      
+      imgUrl: [projImg16], 
+      link: "/PlatDegrader",
     },
   ];
   /******DATA 2 echarpe ********/
@@ -416,119 +484,86 @@ export const Projects = () => {
       },
     ]
 
-  return (
-    <section className="project" id="project" >
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Categorie </h2>
-                <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
-                <Tab.Container  defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">TUNIQUE</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">ECHARPE</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">FOUTA </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="FOR">JETER</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="FIF">PACK</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="third">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                                
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                    <Row>
-                        {
-                          projects2.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>                   
-                       </Tab.Pane>
-
-                    <Tab.Pane eventKey="first">
-                    <Row>
-                        {
-                          projects3.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                   </Tab.Pane>
-
-                   <Tab.Pane eventKey="FOR">
-                    <Row>
-                        {
-                          projects5.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                   </Tab.Pane>
-
-                   <Tab.Pane eventKey="FIF">
-                    <Row>
-                        {
-                          projects4.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                   </Tab.Pane>
-
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-      
-      <img className="background-image-right" src={colorSharp2} alt="Background design" />
+    return (
+      <section className="project" id="project">
+        <Container>
+          <Row>
+            <Col size={12}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                    <h2>Categorie</h2>
+                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu...</p>
+                    <Tab.Container activeKey={activeTab} onSelect={handleTabSelect}>
+                      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                        <Nav.Item>
+                          <Nav.Link eventKey="first">FOUTA</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="third">TUNIQUE</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="second">ECHARPE</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="FOR">JETER</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="FIF">PACK</Nav.Link>
+                        </Nav.Item>
+                      </Nav>
+  
+                      <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                        <Tab.Pane eventKey="first">
+                          <Row>
+                            {projects.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+  
+                        <Tab.Pane eventKey="second">
+                          <Row>
+                            {projects2.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+  
+                        <Tab.Pane eventKey="third">
+                          <Row>
+                            {projects3.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+  
+                        <Tab.Pane eventKey="FOR">
+                          <Row>
+                            {projects5.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+  
+                        <Tab.Pane eventKey="FIF">
+                          <Row>
+                            {projects4.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+                      </Tab.Content>
+                    </Tab.Container>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+  
+        <img className="background-image-right" src={colorSharp2} alt="Background design" />
       </section>
-  )
-}
+    );
+  };
+  

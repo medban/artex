@@ -37,42 +37,42 @@ import { Footer } from '../components/Footer.js';
           title: "TAUP",
           description: "Design by artex",
          
-         SKU :"AR001",
+         SKU :"NIDB001",
           imgUrl: [projImg1,],
           link: "/ProductDNidabeille", },
         {
           title: "BLANCO",
           description: "Design BY ARTEX",
          
-        SKU :"AR002",
+        SKU :"NIDB002",
           imgUrl: projImg2,
           link: "/ProductDNidabeille",  },
         {
           title: "TURQUOISE",
           description: "Design BY ARTEX",
          
-        SKU :"AR003",
+        SKU :"NIDB003",
           imgUrl: projImg3,
           link: "/ProductDNidabeille",  },
         {
           title: "BLEU CANARD",
           description: "Design BY ARTEX",
          
-        SKU :"AR004",
+        SKU :"NIDB004",
           imgUrl: projImg4,
           link: "/ProductDNidabeille",  },
         {
           title: "GRIS BLEU",
           description: "Design BY ARTEX",
          
-        SKU :"AR005",
+        SKU :"NIDB005",
           imgUrl: projImg5,
           link: "/ProductDNidabeille", },
         {
           title: "BLEU MARINE",
           description: "Design BY ARTEX",
          
-        SKU :"AR006",
+        SKU :"NIDB006",
           imgUrl: projImg6,
           link: "/ProductDNidabeille",
         },
@@ -80,7 +80,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "VERTE D'EAU ",
             description: "Design BY ARTEX",
-                  SKU :"AR007",
+                  SKU :"NIDB007",
 
             imgUrl: projImg12,
             link: "/ProductDNidabeille",
@@ -88,7 +88,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "BLEU OR",
             description: "Design BY ARTEX",
-                  SKU :"AR008",
+                  SKU :"NIDB008",
 
             imgUrl: projImg13,
             link: "/ProductDNidabeille",
@@ -96,7 +96,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "MARON",
             description: "Design BY ARTEX",
-                  SKU :"AR009",
+                  SKU :"NIDB009",
 
             imgUrl: projImg14,
             link: "/ProductDNidabeille",
@@ -104,7 +104,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "GRIS MOYEN",
             description: "Design BY ARTEX",
-                  SKU :"AR010",
+                  SKU :"NIDB010",
 
             imgUrl: projImg15,
             link: "/ProductDNidabeille",
@@ -112,7 +112,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "GRIS ORANGE",
             description: "Design BY ARTEX",
-                  SKU :"AR011",
+                  SKU :"NIDB011",
 
             imgUrl: projImg16,
             link: "/ProductDNidabeille",
@@ -120,7 +120,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "JAUNE GRIS ",
             description: "Design BY ARTEX",
-                  SKU :"AR012",
+                  SKU :"NIDB012",
 
             imgUrl: projImg17,
             link: "/ProductDNidabeille",
@@ -128,7 +128,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "TAUP JAUNE",
             description: "Design BY ARTEX",
-                  SKU :"AR013",
+                  SKU :"NIDB013",
 
             imgUrl: projImg18,
             link: "/ProductDNidabeille",
@@ -136,7 +136,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "ORANGE",
             description: "Design BY ARTEX",
-                  SKU :"AR014",
+                  SKU :"NIDB014",
 
             imgUrl: projImg19,
             link: "/ProductDNidabeille",
@@ -144,7 +144,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "ROSE FUSHIA",
             description: "Design BY ARTEX",
-                  SKU :"AR015",
+                  SKU :"NIDB015",
 
             imgUrl: projImg20,
             link: "/ProductDNidabeille",
@@ -153,7 +153,7 @@ import { Footer } from '../components/Footer.js';
           {
             title: "FUCHSIA MARINE",
             description: "Design BY ARTEX",
-                  SKU :"AR016",
+                  SKU :"NIDB016",
 
             imgUrl: projImg22,
             link: "/ProductDNidabeille",
@@ -161,14 +161,14 @@ import { Footer } from '../components/Footer.js';
           {
             title: "TURQUOISE ",
             description: "Design BY ARTEX",
-                  SKU :"AR017",
+                  SKU :"NIDB017",
 
             imgUrl: projImg23,
             link: "/ProductDNidabeille",
           }, {
             title: "VIOLET ",
             description: "Design BY ARTEX",
-                  SKU :"AR018",
+                  SKU :"NIDB018",
 
             imgUrl: projImg24,
             link: "/ProductDNidabeille",
