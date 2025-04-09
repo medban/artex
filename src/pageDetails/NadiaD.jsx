@@ -18,13 +18,13 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "FOUTA DIMENSION 1M/2M",sku:"ND001" },
-  { src: Imj2, text: "FOUTA DIMENSION 1M/2M",sku:"ND002" },
-  { src: Imj3, text: "FOUTA DIMENSION 1M/2M",sku:"ND003" },
-  { src: Imj4, text: "FOUTA DIMENSION 1M/2M",sku:"ND004" },
-  { src: Imj5, text: "FOUTA DIMENSION 1M/2M",sku:"ND005" },
-  { src: Imj6, text: "FOUTA DIMENSION 1M/2M",sku:"ND006" },
-  { src: Imj7, text: "FOUTA DIMENSION 1M/2M",sku:"ND007" },
+  { src: Imj1, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND001" },
+  { src: Imj2, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND002" },
+  { src: Imj3, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND003" },
+  { src: Imj4, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND004" },
+  { src: Imj5, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND005" },
+  { src: Imj6, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND006" },
+  { src: Imj7, text: "Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.",sku:"ND007" },
  
   
 ];

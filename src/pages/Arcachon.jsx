@@ -108,8 +108,10 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2> ARCACHO</h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <h2> ARCACHON</h2>
+                    <p>Fouta Arcachon Du Artex – 1m x 2m</p>
+                    <p>Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.
+                    </p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

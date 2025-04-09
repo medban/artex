@@ -117,7 +117,10 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2> MYKONOS</h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Mykonos Du Artex – 1m x 2m </p>
+                    <p>
+
+Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

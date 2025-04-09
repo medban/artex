@@ -69,7 +69,10 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2> DIAMOND </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Diamond Du Artex – 1m x 2m </p>
+                  <p>
+
+Élégante et intemporelle, la fouta motif Diamond de Du Artex Tunisie séduit par son tissage géométrique en losanges. Douce, légère et ultra-absorbante, elle est idéale pour la plage, le hammam ou en décoration.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

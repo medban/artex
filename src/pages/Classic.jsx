@@ -73,8 +73,8 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>NID D'ABEILLLE</h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <h2>NID D'ABEILLE</h2>
+                    <p>Apportez une touche d’élégance et de douceur à votre salle de bain avec cette serviette en tissu nid d’abeille signée Du Artex Tunisie. Conçue en coton , absorbant et respirant, elle est idéale pour un séchage rapide tout en offrant un confort optimal. Sa texture gaufrée lui confère un style raffiné, parfait pour un usage quotidien ou à la plage.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

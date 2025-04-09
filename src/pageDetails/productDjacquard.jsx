@@ -25,23 +25,23 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku :"J001" },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku :"J002" },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku :"J003" },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku :"J004" },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku :"J005" },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J006" },
-  { src: Img12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku :"J007" },
-  { src: Img13, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku :"J008" },
-  { src: Img14, text: "Écharpe élégante en lin, alliant confort et style.",sku :"J009" },
-  { src: Img15, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku :"J010" },
-  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku :"J011" },
-  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J012" },
-  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J013" },
-  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J014" },
-  { src: Img20, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J015" },
-  { src: Img21, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J016" },
-  { src: Img22, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku :"J017" }
+  { src: Img1, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J001" },
+  { src: Img2, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J002" },
+  { src: Img3, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J003" },
+  { src: Img4, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J004" },
+  { src: Img5, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J005" },
+  { src: Img6, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J006" },
+  { src: Img12, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J007" },
+  { src: Img13, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J008" },
+  { src: Img14, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J009" },
+  { src: Img15, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J010" },
+  { src: Img16, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J011" },
+  { src: Img17, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J012" },
+  { src: Img18, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J013" },
+  { src: Img19, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J014" },
+  { src: Img20, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J015" },
+  { src: Img21, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J016" },
+  { src: Img22, text: "Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.",sku :"J017" }
 
 ];
 
@@ -67,9 +67,9 @@ const ProductDjacquard = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
-                    <h2>JACQUADR</h2>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>JACQUARD</h1>
+                   
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>

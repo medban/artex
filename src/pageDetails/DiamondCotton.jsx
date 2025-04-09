@@ -13,11 +13,11 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Im7, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D001" },
-  { src: Im8, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D002" },
-  { src: Im9, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D003" },
-  { src: Im10, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D004" },
-  { src: Im11, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"D005" },
+  { src: Im7, text: "Élégante et intemporelle, la fouta motif Diamond de Du Artex Tunisie séduit par son tissage géométrique en losanges. Douce, légère et ultra-absorbante, elle est idéale pour la plage, le hammam ou en décoration.",sku:"D001" },
+  { src: Im8, text: "Élégante et intemporelle, la fouta motif Diamond de Du Artex Tunisie séduit par son tissage géométrique en losanges. Douce, légère et ultra-absorbante, elle est idéale pour la plage, le hammam ou en décoration.",sku:"D002" },
+  { src: Im9, text: "Élégante et intemporelle, la fouta motif Diamond de Du Artex Tunisie séduit par son tissage géométrique en losanges. Douce, légère et ultra-absorbante, elle est idéale pour la plage, le hammam ou en décoration.",sku:"D003" },
+  { src: Im10, text: "Élégante et intemporelle, la fouta motif Diamond de Du Artex Tunisie séduit par son tissage géométrique en losanges. Douce, légère et ultra-absorbante, elle est idéale pour la plage, le hammam ou en décoration.",sku:"D004" },
+  { src: Im11, text: "Élégante et intemporelle, la fouta motif Diamond de Du Artex Tunisie séduit par son tissage géométrique en losanges. Douce, légère et ultra-absorbante, elle est idéale pour la plage, le hammam ou en décoration.",sku:"D005" },
 
 
 ];
@@ -44,8 +44,8 @@ const DiamondCotton = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>DIAMOND</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
 

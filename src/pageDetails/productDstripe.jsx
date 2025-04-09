@@ -19,16 +19,16 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"GC001" },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"GC002" },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"GC003" },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"GC004" },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"GC005" },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"GC006" },
-  { src: Img7, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"GC007" },
-  { src: Img8, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"GC008" },
-  { src: Img9, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"GC009" },
-  { src: Img10, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"GC010" }
+  { src: Img1, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC001" },
+  { src: Img2, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC002" },
+  { src: Img3, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC003" },
+  { src: Img4, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC004" },
+  { src: Img5, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC005" },
+  { src: Img6, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC006" },
+  { src: Img7, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC007" },
+  { src: Img8, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC008" },
+  { src: Img9, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC009" },
+  { src: Img10, text: "Avec son motif Grain de Café raffiné, cette fouta Du Artex Tunisie allie tradition et élégance. Légère, douce et absorbante, elle est parfaite pour la plage, le hammam ou en déco intérieure. Un incontournable du linge tunisien.",sku:"GC010" }
 ];
 
 const ProductDstripe = () => {
@@ -53,8 +53,8 @@ const ProductDstripe = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>GRAIN DE CAFE</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
 

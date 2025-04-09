@@ -13,11 +13,11 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin." ,sku:"C001"},
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons." ,sku:"C002"},
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style." ,sku:"C003"},
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne." ,sku:"C004"},
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales." ,sku:"C005"},
+  { src: Img1, text: "Apportez une touche d’élégance et de douceur à votre salle de bain avec cette serviette en tissu nid d’abeille signée Du Artex Tunisie. Conçue en coton , absorbant et respirant, elle est idéale pour un séchage rapide tout en offrant un confort optimal. Sa texture gaufrée lui confère un style raffiné, parfait pour un usage quotidien ou à la plage. Dimensions : 100 x 200 cm" ,sku:"C001"},
+  { src: Img2, text: "Apportez une touche d’élégance et de douceur à votre salle de bain avec cette serviette en tissu nid d’abeille signée Du Artex Tunisie. Conçue en coton , absorbant et respirant, elle est idéale pour un séchage rapide tout en offrant un confort optimal. Sa texture gaufrée lui confère un style raffiné, parfait pour un usage quotidien ou à la plage. Dimensions : 100 x 200 cm" ,sku:"C002"},
+  { src: Img3, text: "Apportez une touche d’élégance et de douceur à votre salle de bain avec cette serviette en tissu nid d’abeille signée Du Artex Tunisie. Conçue en coton , absorbant et respirant, elle est idéale pour un séchage rapide tout en offrant un confort optimal. Sa texture gaufrée lui confère un style raffiné, parfait pour un usage quotidien ou à la plage. Dimensions : 100 x 200 cm" ,sku:"C003"},
+  { src: Img4, text: "Apportez une touche d’élégance et de douceur à votre salle de bain avec cette serviette en tissu nid d’abeille signée Du Artex Tunisie. Conçue en coton , absorbant et respirant, elle est idéale pour un séchage rapide tout en offrant un confort optimal. Sa texture gaufrée lui confère un style raffiné, parfait pour un usage quotidien ou à la plage. Dimensions : 100 x 200 cm" ,sku:"C004"},
+  { src: Img5, text: "Apportez une touche d’élégance et de douceur à votre salle de bain avec cette serviette en tissu nid d’abeille signée Du Artex Tunisie. Conçue en coton , absorbant et respirant, elle est idéale pour un séchage rapide tout en offrant un confort optimal. Sa texture gaufrée lui confère un style raffiné, parfait pour un usage quotidien ou à la plage. Dimensions : 100 x 200 cm" ,sku:"C005"},
  
 ];
 
@@ -43,8 +43,8 @@ const ProductDclassic = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>NID D'ABEILLE</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
 

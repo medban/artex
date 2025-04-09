@@ -102,7 +102,10 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2> ARTEX </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Artex Du Artex – 1m x 2m </p>
+                    <p>
+
+Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

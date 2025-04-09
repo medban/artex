@@ -73,8 +73,9 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>JACQUARD DIAMOND </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
-                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <p>Fouta Jacquard Diamond Du Artex – 1m x 2m </p>
+<p>
+Apportez du style à vos moments de détente avec cette fouta Jacquard au motif Diamond signée Du Artex Tunisie. Son tissage raffiné en forme de losanges allie élégance, douceur et grande capacité d’absorption. Idéale pour la plage, le hammam ou la maison.</p>                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                         <Tab.Pane eventKey="first">

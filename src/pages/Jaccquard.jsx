@@ -181,7 +181,11 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>JACQUARD </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>
+                    Fouta Jacquard Du Artex – 1m x 2m</p>
+                    <p>
+Élégante et pratique, la fouta Jacquard Du Artex Tunisie est l’alliée idéale pour la plage, le hammam ou la maison. Son tissage Jacquard lui offre un motif raffiné et une touche de sophistication, tout en restant légère, absorbante et facile à sécher.</p>
+                  
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

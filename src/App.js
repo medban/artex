@@ -27,7 +27,7 @@ import Mykonos from "./pages/Mykonos.jsx";
 import Stbarth from "./pages/Stbarth.jsx";
 import TwidPlat from "./pages/TwidPlat.jsx";
 import PlatDegrader from "./pages/PlatDegrader.jsx";
-
+import Poncho from "./pages/Poncho.jsx";
 
 /********product details pages **********/
 import ProductDstripe from "./pageDetails/productDstripe.jsx";
@@ -50,6 +50,7 @@ import MykonosD from "./pageDetails/MykonosD.jsx";
 import StbarthD from "./pageDetails/StbarthD.jsx"
 import TwidPlatD from "./pageDetails/TwidPlatD.jsx";
 import PlatDegraderD from "./pageDetails/PlatDegraderD.jsx";
+import PonchoD from "./pageDetails/PonchoD.jsx"
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -89,7 +90,7 @@ function App() {
        <Route path="/Stbarth" element={<Stbarth/>}/>
        <Route path="/TwidPlat" element={<TwidPlat/>}/>
        <Route path="/PlatDegrader" element={<PlatDegrader/>}/>
-
+       <Route path="/Poncho" element={<Poncho/>}/>
 
         <Route path="/ProductDecharpe" element={<ProductDecharpe/>}/>
         <Route path="/ProductDstripe" element={<ProductDstripe/>}/>
@@ -111,8 +112,8 @@ function App() {
         <Route path="/StbarthD" element={<StbarthD/>}/>
         <Route path="/TwidPlatD" element={<TwidPlatD/>}/>
         <Route path="/PlatDegraderD" element={<PlatDegraderD/>}/>
-
-
+       <Route path="/PonchoD" element={<PonchoD/>}/>
+     
       </Routes>
       <ScrollToTopArrow/>
     </div>

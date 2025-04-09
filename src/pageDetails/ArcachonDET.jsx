@@ -21,16 +21,16 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "100% coton dimonsion 1m/2m",sku:"AR001" },
-  { src: Imj2, text: "100% coton dimonsion 1m/2m",sku:"AR002" },
-  { src: Imj3, text: "100% coton dimonsion 1m/2m",sku:"AR003" },
-  { src: Imj4, text: "100% coton dimonsion 1m/2m",sku:"AR004" },
-  { src: Imj5, text: "100% coton dimonsion 1m/2m",sku:"AR005" },
-  { src: Imj6, text: "100% coton dimonsion 1m/2m",sku:"AR006" },
-  { src: Imj7, text: "100% coton dimonsion 1m/2m",sku:"AR007" },
-  { src: Imj8, text: "100% coton dimonsion 1m/2m",sku:"AR008" },
-  { src: Imj9, text: "100% coton dimonsion 1m/2m",sku:"AR009" },
-  { src: Imj10, text: "100% coton dimonsion 1m/2m",sku:"AR010" },
+  { src: Imj1, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR001" },
+  { src: Imj2, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR002" },
+  { src: Imj3, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR003" },
+  { src: Imj4, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR004" },
+  { src: Imj5, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR005" },
+  { src: Imj6, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR006" },
+  { src: Imj7, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR007" },
+  { src: Imj8, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR008" },
+  { src: Imj9, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR009" },
+  { src: Imj10, text: "Élégantes et pratiques, les chaussures Arcachon de Du Artex Tunisie présentent un motif subtil et une texture douce. Absorbant et à séchage rapide, parfait pour les moments de détente à la plage, dans le bain ou à la maison.",sku:"AR010" },
   
 ];
 

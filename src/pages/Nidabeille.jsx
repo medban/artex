@@ -189,7 +189,9 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>NID D'ABEILLE. JENNY </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Nid d’Abeille Jenny Du Artex – 1m x 2m </p>
+<p>
+Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

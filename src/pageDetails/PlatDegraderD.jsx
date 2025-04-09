@@ -16,10 +16,10 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "FOUTA DIMENSION 1M/2M",sku:"PD001" },
-  { src: Imj2, text: "FOUTA DIMENSION 1M/2M",sku:"PD002" },
-  { src: Imj3, text: "FOUTA DIMENSION 1M/2M",sku:"PD003" },
-  { src: Imj4, text: "FOUTA DIMENSION 1M/2M",sku:"PD004" },
+  { src: Imj1, text: "Découvrez la fouta Plat DEGRADER de Du Artex Tunisie, un accessoire à la fois élégant et pratique. Son tissage plat et son design moderne en font un choix parfait pour vos moments de détente. Légère, absorbante et facile à transporter, elle est idéale pour la plage, le hammam ou à la maison",sku:"PD001" },
+  { src: Imj2, text: "Découvrez la fouta Plat DEGRADER de Du Artex Tunisie, un accessoire à la fois élégant et pratique. Son tissage plat et son design moderne en font un choix parfait pour vos moments de détente. Légère, absorbante et facile à transporter, elle est idéale pour la plage, le hammam ou à la maison",sku:"PD002" },
+  { src: Imj3, text: "Découvrez la fouta Plat DEGRADER de Du Artex Tunisie, un accessoire à la fois élégant et pratique. Son tissage plat et son design moderne en font un choix parfait pour vos moments de détente. Légère, absorbante et facile à transporter, elle est idéale pour la plage, le hammam ou à la maison",sku:"PD003" },
+  { src: Imj4, text: "Découvrez la fouta Plat DEGRADER de Du Artex Tunisie, un accessoire à la fois élégant et pratique. Son tissage plat et son design moderne en font un choix parfait pour vos moments de détente. Légère, absorbante et facile à transporter, elle est idéale pour la plage, le hammam ou à la maison",sku:"PD004" },
  
   
 ];

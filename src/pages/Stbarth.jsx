@@ -75,7 +75,10 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2> SAINT BARTH</h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Saint Barth Du Artex – 1m x 2m </p>
+                    <p>
+
+Évadez-vous sous les tropiques avec la fouta Saint Barth de Du Artex Tunisie. Son motif élégant et sa texture douce apportent un air de vacances à chaque utilisation. Légère, absorbante et rapide à sécher, elle est parfaite pour la plage, le hammam ou chez vous.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

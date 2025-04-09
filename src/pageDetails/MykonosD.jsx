@@ -22,17 +22,17 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "100% coton dimonsion 1m/2m",sku:"MK001" },
-  { src: Imj2, text: "100% coton dimonsion 1m/2m",sku:"MK002" },
-  { src: Imj3, text: "100% coton dimonsion 1m/2m",sku:"MK003" },
-  { src: Imj4, text: "100% coton dimonsion 1m/2m",sku:"MK004" },
-  { src: Imj5, text: "100% coton dimonsion 1m/2m",sku:"MK005" },
-  { src: Imj6, text: "100% coton dimonsion 1m/2m",sku:"MK006" },
-  { src: Imj7, text: "100% coton dimonsion 1m/2m",sku:"MK007" },
-  { src: Imj8, text: "100% coton dimonsion 1m/2m",sku:"MK008" },
-  { src: Imj9, text: "100% coton dimonsion 1m/2m",sku:"MK009" },
-  { src: Imj10, text: "100% coton dimonsion 1m/2m",sku:"MK010" },
-  { src: Imj11, text: "100% coton dimonsion 1m/2m",sku:"MK011" },
+  { src: Imj1, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK001" },
+  { src: Imj2, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK002" },
+  { src: Imj3, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK003" },
+  { src: Imj4, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK004" },
+  { src: Imj5, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK005" },
+  { src: Imj6, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK006" },
+  { src: Imj7, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK007" },
+  { src: Imj8, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK008" },
+  { src: Imj9, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK009" },
+  { src: Imj10, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK010" },
+  { src: Imj11, text: "Inspirée par l’élégance des îles grecques, la fouta Mykonos de Du Artex Tunisie apporte une touche méditerranéenne à vos moments de détente. Son motif raffiné et sa texture douce en font l’accessoire idéal pour la plage, le hammam ou à la maison. Légère, absorbante et chic.",sku:"MK011" },
 
 ];
 

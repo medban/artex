@@ -20,15 +20,15 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "FOUTA DIMENSION 1M/2M",sku:"ART001" },
-  { src: Imj2, text: "FOUTA DIMENSION 1M/2M",sku:"ART002" },
-  { src: Imj3, text: "FOUTA DIMENSION 1M/2M",sku:"ART003" },
-  { src: Imj4, text: "FOUTA DIMENSION 1M/2M",sku:"ART004" },
-  { src: Imj5, text: "FOUTA DIMENSION 1M/2M",sku:"ART005" },
-  { src: Imj6, text: "FOUTA DIMENSION 1M/2M",sku:"ART006" },
-  { src: Imj7, text: "FOUTA DIMENSION 1M/2M",sku:"ART007" },
-  { src: Imj8, text: "FOUTA DIMENSION 1M/2M",sku:"ART008" },
-  { src: Imj9, text: "FOUTA DIMENSION 1M/2M",sku:"ART009" },
+  { src: Imj1, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART001" },
+  { src: Imj2, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART002" },
+  { src: Imj3, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART003" },
+  { src: Imj4, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART004" },
+  { src: Imj5, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART005" },
+  { src: Imj6, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART006" },
+  { src: Imj7, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART007" },
+  { src: Imj8, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART008" },
+  { src: Imj9, text: "Apportez une touche d’élégance à vos moments de détente avec la fouta Artex de Du Artex Tunisie. Son motif moderne et sa texture douce en font l'accessoire parfait pour la plage, le hammam ou à la maison. Légère, absorbante et agréable au toucher, elle vous accompagne partou",sku:"ART009" },
   
 ];
 

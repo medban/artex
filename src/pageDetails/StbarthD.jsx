@@ -15,11 +15,11 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "FOUTA DIMENSION 1M/2M",sku:"ST001" },
-  { src: Imj2, text: "FOUTA DIMENSION 1M/2M",sku:"ST002" },
-  { src: Imj3, text: "FOUTA DIMENSION 1M/2M",sku:"ST003" },
-  { src: Imj4, text: "FOUTA DIMENSION 1M/2M",sku:"ST004" },
-  { src: Imj5, text: "FOUTA DIMENSION 1M/2M",sku:"ST005" },
+  { src: Imj1, text: "Évadez-vous sous les tropiques avec la fouta Saint Barth de Du Artex Tunisie. Son motif élégant et sa texture douce apportent un air de vacances à chaque utilisation. Légère, absorbante et rapide à sécher, elle est parfaite pour la plage, le hammam ou chez vous.",sku:"ST001" },
+  { src: Imj2, text: "Évadez-vous sous les tropiques avec la fouta Saint Barth de Du Artex Tunisie. Son motif élégant et sa texture douce apportent un air de vacances à chaque utilisation. Légère, absorbante et rapide à sécher, elle est parfaite pour la plage, le hammam ou chez vous.",sku:"ST002" },
+  { src: Imj3, text: "Évadez-vous sous les tropiques avec la fouta Saint Barth de Du Artex Tunisie. Son motif élégant et sa texture douce apportent un air de vacances à chaque utilisation. Légère, absorbante et rapide à sécher, elle est parfaite pour la plage, le hammam ou chez vous.",sku:"ST003" },
+  { src: Imj4, text: "Évadez-vous sous les tropiques avec la fouta Saint Barth de Du Artex Tunisie. Son motif élégant et sa texture douce apportent un air de vacances à chaque utilisation. Légère, absorbante et rapide à sécher, elle est parfaite pour la plage, le hammam ou chez vous.",sku:"ST004" },
+  { src: Imj5, text: "Évadez-vous sous les tropiques avec la fouta Saint Barth de Du Artex Tunisie. Son motif élégant et sa texture douce apportent un air de vacances à chaque utilisation. Légère, absorbante et rapide à sécher, elle est parfaite pour la plage, le hammam ou chez vous.",sku:"ST005" },
 
  
   

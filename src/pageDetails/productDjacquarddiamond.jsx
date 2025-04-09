@@ -13,11 +13,11 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"JD001" },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"JD002" },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"JD003" },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"JD004" },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"JD005" }
+  { src: Img1, text: "Apportez du style à vos moments de détente avec cette fouta Jacquard au motif Diamond signée Du Artex Tunisie. Son tissage raffiné en forme de losanges allie élégance, douceur et grande capacité d’absorption. Idéale pour la plage, le hammam ou la maison.",sku:"JD001" },
+  { src: Img2, text: "Apportez du style à vos moments de détente avec cette fouta Jacquard au motif Diamond signée Du Artex Tunisie. Son tissage raffiné en forme de losanges allie élégance, douceur et grande capacité d’absorption. Idéale pour la plage, le hammam ou la maison.",sku:"JD002" },
+  { src: Img3, text: "Apportez du style à vos moments de détente avec cette fouta Jacquard au motif Diamond signée Du Artex Tunisie. Son tissage raffiné en forme de losanges allie élégance, douceur et grande capacité d’absorption. Idéale pour la plage, le hammam ou la maison.",sku:"JD003" },
+  { src: Img4, text: "Apportez du style à vos moments de détente avec cette fouta Jacquard au motif Diamond signée Du Artex Tunisie. Son tissage raffiné en forme de losanges allie élégance, douceur et grande capacité d’absorption. Idéale pour la plage, le hammam ou la maison.",sku:"JD004" },
+  { src: Img5, text: "Apportez du style à vos moments de détente avec cette fouta Jacquard au motif Diamond signée Du Artex Tunisie. Son tissage raffiné en forme de losanges allie élégance, douceur et grande capacité d’absorption. Idéale pour la plage, le hammam ou la maison.",sku:"JD005" }
   
 ];
 
@@ -43,8 +43,8 @@ const ProductDjacquardDiamond = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>JACQUARD DIAMOND</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>

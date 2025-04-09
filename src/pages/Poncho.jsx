@@ -3,10 +3,10 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProductsCard } from "./productsCard.jsx";
 
 
-import projImg1 from "../assets/img/PLAT DEGRADER/PD001.JPG";
-import projImg2 from "../assets/img/PLAT DEGRADER/PD002.JPG";
-import projImg3 from "../assets/img/PLAT DEGRADER/PD003.JPG";
-import projImg4 from "../assets/img/PLAT DEGRADER/PD004.JPG";
+import projImg1 from "../assets/img/PONCHO/PON001.JPG";
+import projImg2 from "../assets/img/PONCHO/PON002.JPG";
+import projImg3 from "../assets/img/PONCHO/PON003.JPG";
+import projImg4 from "../assets/img/PONCHO/PON004.JPG";
 
 
 
@@ -15,7 +15,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import { Footer } from '../components/Footer.js';
 
- const PlatDegrader = () => {
+ const Poncho = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -24,29 +24,29 @@ import { Footer } from '../components/Footer.js';
         
        
           {
-            title: "ORNAGE GRIS",
+            title: "PONCHO",
             description: "Design BY ARTEX",
-            SKU:"PD001",
+            SKU:"PON001",
             imgUrl: projImg1,
-            link: "/PlatDegraderD",
+            link: "/PonchoD",
           }, {
-            title: " BLEU ",
+            title: " PONCHO ",
             description: "Design BY ARTEX",
-            SKU:"PD002",
+            SKU:"PON002",
             imgUrl: projImg2,
-            link: "/PlatDegraderD",
+            link: "/PonchoD",
           }, {
-            title: "TAUP",
+            title: "PONCHO",
             description: "Design BY ARTEX",
-            SKU:"PD003",
+            SKU:"PON003",
             imgUrl: projImg3,
-            link: "/PlatDegraderD",
+            link: "/PonchoD",
           }, {
-            title: "BORDEAUX",
+            title: "PONCHO",
             description: "Design BY ARTEX",
-            SKU:"PD004",
+            SKU:"PON004",
             imgUrl: projImg4,
-            link: "/PlatDegraderD",
+            link: "/PonchoD",
           }, 
          
          
@@ -65,10 +65,8 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2> PLAT DEGRADER</h2>
-                    <p>Fouta Plat DEGRADER Du Artex – 1m x 2m</p>
-<p>
-Découvrez la fouta Plat DEGRADER de Du Artex Tunisie, un accessoire à la fois élégant et pratique. Son tissage plat et son design moderne en font un choix parfait pour vos moments de détente. Légère, absorbante et facile à transporter, elle est idéale pour la plage, le hammam ou à la maison.</p>
+                    <h2> PONCHO</h2>
+                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -101,6 +99,6 @@ Découvrez la fouta Plat DEGRADER de Du Artex Tunisie, un accessoire à la fois 
       )
     }
     
-    export default PlatDegrader ;
+    export default Poncho ;
    
     

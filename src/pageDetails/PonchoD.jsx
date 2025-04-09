@@ -1,26 +1,27 @@
 import { useState } from "react";
 import { Container, Row, Col, Carousel, Modal } from "react-bootstrap";
 
-import Im1 from "../assets/img/soi/TUNIQUE/T5.JPG";
-import Im2 from "../assets/img/soi/TUNIQUE/T6.JPG";
-import Im3 from "../assets/img/soi/TUNIQUE/T7.JPG";
+import Im1 from "../assets/img/PONCHO/PON001.JPG";
+import Im2 from "../assets/img/PONCHO/PON002.JPG";
+import Im3 from "../assets/img/PONCHO/PON003.JPG";
+import Im4 from "../assets/img/PONCHO/PON004.JPG";
 
 
 import "animate.css";
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 import "../App.css"
-
 const images = [
-  { src: Im1, text: "JOBA inspirés de la tradition tunisienne.",sku:"R001" },
-  { src: Im2, text: "JOBA inspirés de la tradition tunisienne.",sku:"R002" },
-  { src: Im3, text: "JOBA inspirés de la tradition tunisienne.",sku:"R003" },
-
+  { src: Im1, text: "",sku:"PON001" },
+  { src: Im2, text: "",sku:"PON002" },
+  { src: Im3, text: "",sku:"PON003" },
+  { src: Im4, text: "",sku:"PON004" },
+  
  
 
 ];
 
-const Tunique = () => {
+const PONCHO = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0); 
@@ -42,10 +43,11 @@ const Tunique = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>PONCHO </h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
+
                   </div>
                 )}
               </TrackVisibility>
@@ -87,4 +89,4 @@ const Tunique = () => {
   );
 };
 
-export default Tunique;
+export default PONCHO;

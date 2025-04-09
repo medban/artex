@@ -88,7 +88,10 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2> NADIA</h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Nadia Du Artex – 1m x 2m </p>
+                    <p>
+
+Conçue par Mme Nadia Arous, la fouta Nadia de Du Artex Tunisie allie élégance et confort. Son design raffiné et sa texture douce en font un accessoire idéal pour vos moments de détente. Parfaite pour la plage, le hammam ou à la maison, elle offre légèreté, absorption et style.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
