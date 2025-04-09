@@ -12,11 +12,11 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 import "../App.css"
 const images = [
-  { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"K001" },
-  { src: Im2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"K002" },
-  { src: Im3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"K003" },
-  { src: Im4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"K004" },
-  { src: Im5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"K005" },
+  { src: Im1, text: "KOFA inspirés de la tradition tunisienne.",sku:"K001" },
+  { src: Im2, text: "KOFA inspirés de la tradition tunisienne.",sku:"K002" },
+  { src: Im3, text: "KOFA inspirés de la tradition tunisienne.",sku:"K003" },
+  { src: Im4, text: "KOFA inspirés de la tradition tunisienne.",sku:"K004" },
+  { src: Im5, text: "KOFA inspirés de la tradition tunisienne.",sku:"K005" },
  
 
 ];

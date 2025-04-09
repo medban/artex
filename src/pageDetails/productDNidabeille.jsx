@@ -26,24 +26,24 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.", sku: "NIDB001" },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.", sku: "NIDB002" },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.", sku: "NIDB003" },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.", sku: "NIDB004" },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.", sku: "NIDB005" },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB006" },
-  { src: Img12, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.", sku: "NIDB007" },
-  { src: Img13, text: "Écharpe en coton doux, idéale pour toutes les saisons.", sku: "NIDB008" },
-  { src: Img14, text: "Écharpe élégante en lin, alliant confort et style.", sku: "NIDB009" },
-  { src: Img15, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.", sku: "NIDB010" },
-  { src: Img16, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.", sku: "NIDB011" },
-  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB012" },
-  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB013" },
-  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB014" },
-  { src: Img20, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB015" },
-  { src: Img23, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB016" },
-  { src: Img22, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB017" },
-  { src: Img24, text: "Design moderne et raffiné, adapté à toutes vos tenues.", sku: "NIDB018" }
+  { src: Img1, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB001" },
+  { src: Img2, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB002" },
+  { src: Img3, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB003" },
+  { src: Img4, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB004" },
+  { src: Img5, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB005" },
+  { src: Img6, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB006" },
+  { src: Img12, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB007" },
+  { src: Img13, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB008" },
+  { src: Img14, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB009" },
+  { src: Img15, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB010" },
+  { src: Img16, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB011" },
+  { src: Img17, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB012" },
+  { src: Img18, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB013" },
+  { src: Img19, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB014" },
+  { src: Img20, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB015" },
+  { src: Img23, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB016" },
+  { src: Img22, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB017" },
+  { src: Img24, text: "Alliant légèreté et élégance, la fouta Nid d’Abeille Jenny de Du Artex Tunisie offre un confort exceptionnel grâce à sa texture gaufrée et son motif délicat. Parfaite pour la plage, le spa ou la maison.", sku: "NIDB018" }
 ];
 
 const ProductDNidabeille = () => {
@@ -66,11 +66,13 @@ const ProductDNidabeille = () => {
             <Col xs={12} md={6} xl={7}>
               <TrackVisibility>
                 {({ isVisible }) => (
+                  
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <h1>ARTEX TUNISIE</h1>
-                    <h2>NID D'ABEILLE</h2>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>NID D'ABEILLE JENNY</h1>
+           
                     <p>{images[activeIndex].text}</p>
-                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p> {/* Displaying SKU */}
+                    <p><strong>SKU:</strong> {images[activeIndex].sku}</p> 
                   </div>
                 )}
               </TrackVisibility>

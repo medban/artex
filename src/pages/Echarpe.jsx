@@ -29,122 +29,98 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E001",
-            imgUrl: projImg3,
-            link: "/ProductDecharpe",
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E002",
-            imgUrl: projImg4,
-            link: "/ProductDecharpe",
-
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E003",
-            imgUrl: projImg5,
-            link: "/ProductDecharpe",
-
-      
-          },
-         
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E004",
-            imgUrl: projImg6,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E005",
-            imgUrl: projImg2,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E006",
-            imgUrl: projImg1,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E007",
-            imgUrl: projImg7,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E008",
-            imgUrl: projImg8,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E009",
-            imgUrl: projImg9,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E010",
-            imgUrl: projImg10,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E011",
-            imgUrl: projImg11,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E012",
-            imgUrl: projImg12,
-            link: "/ProductDecharpe",
-
-      
-          },
-          {
-            title: "UNIQUE CHEVRON ",
-            description: "Design BY ARTEX",
-            SKU :"E013",
-            imgUrl: projImg13,
-            link: "/ProductDecharpe",
-
-      
-          },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES001",
+        imgUrl: [projImg1,], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES002",
+        imgUrl: [projImg2], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES003",
+        imgUrl: [projImg3], 
+        link: "/ProductDecharpe ",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES004",
+        imgUrl: [projImg4], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES005",
+        imgUrl: [projImg5], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES006",
+        imgUrl: [projImg6], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES007",
+        imgUrl: [projImg7], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES008",
+        imgUrl: [projImg8], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES009",
+        imgUrl: [projImg9], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES010",
+        imgUrl: [projImg10], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES011",
+        imgUrl: [projImg11], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+       
+        SKU:" ES012",
+        imgUrl: [projImg12], 
+        link: "/ProductDecharpe",
+      },
+      {
+        title: "",
+         description:"disgned by artex",
+        SKU:" ES013",
+        imgUrl: [projImg13], 
+        link: "/ProductDecharpe",
+      },
          
       ];
     

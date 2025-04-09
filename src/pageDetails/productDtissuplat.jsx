@@ -27,25 +27,25 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"FC001" },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"FC002" },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"FC003" },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"FC004" },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"FC005" },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC006" },
-  { src: Img7, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC007" },
-  { src: Img8, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC008" },
-  { src: Img9, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC009" },
-  { src: Img10, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC010" },
-  { src: Img11, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC011" },
-  { src: Img12, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC012" },
-  { src: Img13, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC013" },
-  { src: Img14, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC014" },
-  { src: Img15, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC015" },
-  { src: Img16, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC016" },
-  { src: Img17, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC017" },
-  { src: Img18, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC018" },
-  { src: Img19, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"FC019" },
+  { src: Img1, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC001" },
+  { src: Img2, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC002" },
+  { src: Img3, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC003" },
+  { src: Img4, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC004" },
+  { src: Img5, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC005" },
+  { src: Img6, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC006" },
+  { src: Img7, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC007" },
+  { src: Img8, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC008" },
+  { src: Img9, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC009" },
+  { src: Img10, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC010" },
+  { src: Img11, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC011" },
+  { src: Img12, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC012" },
+  { src: Img13, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC013" },
+  { src: Img14, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC014" },
+  { src: Img15, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC015" },
+  { src: Img16, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC016" },
+  { src: Img17, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC017" },
+  { src: Img18, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC018" },
+  { src: Img19, text: "Simplicité et efficacité avec cette fouta en tissu plat signée Du Artex Tunisie. Légère, douce et très absorbante, elle sèche rapidement et se plie facilement. Parfaite pour la plage, le hammam, ou comme linge d’appoint à la maison.",sku:"FC019" },
 ];
 
 const ProductDtissuplat = () => {
@@ -70,8 +70,8 @@ const ProductDtissuplat = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>FOUTA CLASSIC</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
 

@@ -96,12 +96,10 @@ const About = () => {
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <h1>ARTEX TUNISIE</h1>
                     <p>
-                      Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise
-                      située à Mahdia, en Tunisie. Passionné par l'industrie textile, il a fondé l'entreprise
-                      avec la vision de créer des produits de qualité, alliant tradition et innovation. Grâce à
-                      son expertise et à son leadership, Artex Textile s'est rapidement imposée comme un acteur
-                      clé dans le secteur textile, contribuant à l'essor économique de la région et à la création
-                      d'emplois.
+                    Du Artex Tunisie est une usine spécialisée dans la fabrication de foutas, 
+                    serviettes et linge de bain en 100% coton. Forte d’un savoir-faire local et
+                     d’une attention particulière aux finitions, elle propose des produits alliant tradition, 
+                    design et qualité, destinés aussi bien aux marchés locaux qu’internationaux.
                     </p>
                   </div>
                 )}

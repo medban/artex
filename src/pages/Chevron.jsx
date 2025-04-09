@@ -137,13 +137,13 @@ import { Footer } from '../components/Footer.js';
             imgUrl: projImg15,
             link: "/ProductDchevron",
           },{
-            title: "UNIQUE CHEVRON ",
+            title: "ARTEX CHEVRON ",
             description: "Design BY ARTEX",
             SKU : "ch016",
             imgUrl: projImg16,
             link: "/ProductDchevron",
           },{
-            title: "UNIQUE CHEVRON ",
+            title: "ARTEX CHEVRON ",
             description: "Design BY ARTEX",
             SKU : "ch017",
             imgUrl: projImg17,
@@ -165,7 +165,9 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>CHEVRON</h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Fouta Chevron Du Artex – 1m x 2m </p>
+<p>
+Alliez modernité et tradition avec cette fouta au motif Chevron signée Du Artex Tunisie. Son tissage en zigzag apporte une touche graphique élégante, tout en offrant légèreté, douceur et absorption. Parfaite pour la plage, le hammam ou comme jeté déco.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

@@ -95,7 +95,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "MODEL ARTHUR 2/3",
             description: "Design BY ARTEX",
             SKU :"JT008",
             imgUrl: Imj8,
@@ -104,7 +104,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "MODEL ARTHUR 2/3",
             description: "Design BY ARTEX",
             SKU :"JT009",
             imgUrl: Imj9,
@@ -113,7 +113,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "MODEL ARTHUR 2/3",
             description: "Design BY ARTEX",
             SKU :"JT010",
             imgUrl: Imj10,
@@ -131,7 +131,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "2/3 DIAMOND",
             description: "Design BY ARTEX",
             SKU :"JT012",
             imgUrl: Imj12,
@@ -140,7 +140,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "MODEL ARTHUR 2/3",
             description: "Design BY ARTEX",
             SKU :"JT013",
             imgUrl: Imj13,
@@ -158,7 +158,7 @@ import { Footer } from '../components/Footer.js';
       
           },
           {
-            title: "VERTE FORET",
+            title: "MODEL ARTHUR 2/3",
             description: "Design BY ARTEX",
             SKU :"JT015",
             imgUrl: Imj15,

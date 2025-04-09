@@ -12,9 +12,9 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Im1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"R001" },
-  { src: Im2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"R002" },
-  { src: Im3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"R003" },
+  { src: Im1, text: "JOBA inspirés de la tradition tunisienne.",sku:"R001" },
+  { src: Im2, text: "JOBA inspirés de la tradition tunisienne.",sku:"R002" },
+  { src: Im3, text: "JOBA inspirés de la tradition tunisienne.",sku:"R003" },
 
  
 

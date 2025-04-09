@@ -18,14 +18,14 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: ImE1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"P001" },
-  { src: ImE2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"P002" },
-  { src: ImE3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"P003" },
-  { src: ImE4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"P004" },
-  { src: ImE5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"P005" },
-  { src: ImE6, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"P006" },
-  { src: ImE7, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"P007" },
-  { src: ImE8, text: "Écharpe élégante en lin, alliant confort et style.",sku:"P008" },
+  { src: ImE1, text: "",sku:"P001" },
+  { src: ImE2, text: "",sku:"P002" },
+  { src: ImE3, text: "",sku:"P003" },
+  { src: ImE4, text: "",sku:"P004" },
+  { src: ImE5, text: "",sku:"P005" },
+  { src: ImE6, text: "",sku:"P006" },
+  { src: ImE7, text: "",sku:"P007" },
+  { src: ImE8, text: "",sku:"P008" },
  
 
   
@@ -54,7 +54,7 @@ const Pack = () => {
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <h1>PACK ARTEX </h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
 

@@ -113,8 +113,8 @@ import { Footer } from '../components/Footer.js';
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>PACK </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <h2>PACK  ARTEX</h2>
+                    <p> </p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
