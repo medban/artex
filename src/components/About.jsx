@@ -1,10 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/KIM.jpg";
-import img1 from "../assets/img/machine2.jpg";
-import img2 from "../assets/img/machine.jpg";
-import img3 from "../assets/img/machine 1.jpg";
-import img4 from "../assets/img/file.jpg";
 import "animate.css";
 
 import TrackVisibility from "react-on-screen";
@@ -76,7 +72,7 @@ const About = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                        <img className="d-block w-100" src={headerImg} alt="First slide" />
+                    <img className="d-block w-100" src={headerImg} alt="First slide" />
                   </div>
                 )}
               </TrackVisibility>
@@ -85,8 +81,7 @@ const About = () => {
         </Container>
       </section>
 
-
-      {/* section 2 */}
+      {/* Section 2 */}
       <section className="banner1" id="home">
         <Container>
           <Row className="align-items-center">
@@ -96,33 +91,32 @@ const About = () => {
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <h1>ARTEX TUNISIE</h1>
                     <p>
-                    Du Artex Tunisie est une usine spécialisée dans la fabrication de foutas, 
-                    serviettes et linge de bain en 100% coton. Forte d’un savoir-faire local et
-                     d’une attention particulière aux finitions, elle propose des produits alliant tradition, 
-                    design et qualité, destinés aussi bien aux marchés locaux qu’internationaux.
+                      Artex Tunisie est une usine spécialisée dans la fabrication de foutas,
+                      serviettes et linge de bain en 100% coton. Forte d’un savoir-faire local et
+                      d’une attention particulière aux finitions, elle propose des produits alliant tradition,
+                      design et qualité, destinés aussi bien aux marchés locaux qu’internationaux.
                     </p>
                   </div>
                 )}
               </TrackVisibility>
             </Col>
+
+            {/* Embedded video centered */}
             <Col xs={12} md={6} xl={5}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <Carousel>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img1} alt="First slide" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img2} alt="Second slide" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img3} alt="Third slide" />
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <img className="d-block w-100" src={img4} alt="Third slide" />
-                      </Carousel.Item>
-                    </Carousel>
+                    <div className="video-responsive">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/_ypZj0pOICA"
+                        title="Artex Tunisie Video"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
                   </div>
                 )}
               </TrackVisibility>
@@ -130,7 +124,6 @@ const About = () => {
           </Row>
         </Container>
       </section>
-    
     </>
   );
 };

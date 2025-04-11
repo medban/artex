@@ -12,9 +12,9 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Im1, text: "JOBA inspirés de la tradition tunisienne.",sku:"R001" },
-  { src: Im2, text: "JOBA inspirés de la tradition tunisienne.",sku:"R002" },
-  { src: Im3, text: "JOBA inspirés de la tradition tunisienne.",sku:"R003" },
+  { src: Im1, text: "TUNIQUE inspirés de la tradition tunisienne.",sku:"R001" },
+  { src: Im2, text: "TUNIQUE inspirés de la tradition tunisienne.",sku:"R002" },
+  { src: Im3, text: "TUNIQUE inspirés de la tradition tunisienne.",sku:"R003" },
 
  
 

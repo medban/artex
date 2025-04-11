@@ -32,7 +32,7 @@ import { Footer } from '../components/Footer.js';
     const products = [
         
           {
-            title: "NOIRE",
+            title: "GRIS",
             description: "Design BY ARTEX",
 
             SKU :"JT001",
@@ -49,7 +49,7 @@ import { Footer } from '../components/Footer.js';
 
           },
           {
-            title: "VIOLETE",
+            title: "VIOLET",
             description: "Design BY ARTEX",
             SKU :"JT003",
             imgUrl: Imj3,
