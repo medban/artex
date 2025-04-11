@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Container, Row, Col, Carousel, Modal } from "react-bootstrap";
+import { Container, Row, Col,  Modal } from "react-bootstrap";
 
 import Imj1 from "../assets/img/DAIMOND/1.JPG";
 import Imj2 from "../assets/img/DAIMOND/2.JPG";
@@ -25,21 +25,21 @@ import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
 
 const images = [
-  { src: Imj1, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT001" },
-  { src: Imj2, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT002" },
-  { src: Imj3, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT002" },
-  { src: Imj4, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT004" },
-  { src: Imj5, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT005" },
-  { src: Imj6, text: "JETTE DIAMON DIMONSION : 1.5/2.5",sku:"JT006" },
-  { src: Imj7, text: "JETTE MODEL ARTHUR 2/3",sku:"JT007" },
-  { src: Imj8, text: "JETTE MODEL ARTHUR 2/3",sku:"JT008" },
-  { src: Imj9, text: "JETTE MODEL ARTHUR 2/3",sku:"JT009" },
-  { src: Imj10, text: "JETTE MODEL ARTHUR 2/3",sku:"JT010" },
-  { src: Imj11, text: "JETTE DIAMON DIMONSION : 2/3",sku:"JT011" },
-  { src: Imj12, text: "JETTE DIAMON DIMONSION : 2/3",sku:"JT012" },
-  { src: Imj13, text: "JETTE MODEL ARTHUR 2/3",sku:"JT013" },
-  { src: Imj14, text: "JETTE UNI 2/3",sku:"JT014" },
-  { src: Imj15, text: "JETTE MODEL ARTHUR 2/3",sku:"JT0015" },
+  { src: Imj1, text: "JETER DIAMON DIMONSION : 1.5/2.5",sku:"JT001" },
+  { src: Imj2, text: "JETER DIAMON DIMONSION : 1.5/2.5",sku:"JT002" },
+  { src: Imj3, text: "JETER DIAMON DIMONSION : 1.5/2.5",sku:"JT002" },
+  { src: Imj4, text: "JETER DIAMON DIMONSION : 1.5/2.5",sku:"JT004" },
+  { src: Imj5, text: "JETER DIAMON DIMONSION : 1.5/2.5",sku:"JT005" },
+  { src: Imj6, text: "JETER DIAMON DIMONSION : 1.5/2.5",sku:"JT006" },
+  { src: Imj7, text: "JETER MODEL ARTHUR 2/3",sku:"JT007" },
+  { src: Imj8, text: "JETER MODEL ARTHUR 2/3",sku:"JT008" },
+  { src: Imj9, text: "JETER MODEL ARTHUR 2/3",sku:"JT009" },
+  { src: Imj10, text: "JETER MODEL ARTHUR 2/3",sku:"JT010" },
+  { src: Imj11, text: "JETER DIAMON DIMONSION : 2/3",sku:"JT011" },
+  { src: Imj12, text: "JETER DIAMON DIMONSION : 2/3",sku:"JT012" },
+  { src: Imj13, text: "JETER MODEL ARTHUR 2/3",sku:"JT013" },
+  { src: Imj14, text: "JETER UNI 2/3",sku:"JT014" },
+  { src: Imj15, text: "JETER MODEL ARTHUR 2/3",sku:"JT0015" },
  
  
 
@@ -49,10 +49,11 @@ const images = [
 const Jeter = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(0); 
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleShow = (imgSrc) => {
-    setSelectedImage(imgSrc);
+  const handleShow = (index) => {
+    setSelectedImage(images[index]); // now storing the full object
+    setActiveIndex(index);
     setShowModal(true);
   };
 
@@ -63,33 +64,37 @@ const Jeter = () => {
       <section className="banner1" id="home">
         <Container>
           <Row className="align-items-center">
-      
+            {/* Text Content */}
             <Col xs={12} md={6} xl={4}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>JETER</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
-
                   </div>
                 )}
               </TrackVisibility>
             </Col>
 
-      
-            <Col xs={12} md={6} xl={5}>
+            {/* Images Grid */}
+            <Col xs={12} md={6} xl={8}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <Carousel activeIndex={activeIndex} onSelect={(selectedIndex) => setActiveIndex(selectedIndex)}>
+                    <Row>
                       {images.map((item, index) => (
-                        <Carousel.Item key={index} onClick={() => handleShow(item.src)}>
-                          <img className="d-block w-100" src={item.src} alt={`Slide ${index + 1}`} />
-                        </Carousel.Item>
+                        <Col xs={6} md={4} className="mb-3" key={index}>
+                          <img
+                            src={item.src}
+                            alt={`jeter ${index + 1}`}
+                            className="img-fluid image-grid"
+                            onClick={() => handleShow(index)}
+                          />
+                        </Col>
                       ))}
-                    </Carousel>
+                    </Row>
                   </div>
                 )}
               </TrackVisibility>
@@ -98,20 +103,25 @@ const Jeter = () => {
         </Container>
       </section>
 
-    
       <Footer />
 
-      
+      {/* Modal for Zoom Image */}
       <Modal show={showModal} onHide={handleClose} centered>
-  <Modal.Body className="text-center">
-    <img 
-      src={selectedImage} 
-      alt="Zoomed I" 
-      className="img-fluid zoom-image" 
-    />
-  </Modal.Body>
-</Modal>
-
+        <Modal.Body className="text-center">
+          {selectedImage && (
+            <>
+              <img
+                src={selectedImage.src}
+                alt="Zoomed"
+                className="img-fluid zoom-image mb-3"
+              />
+              <div>
+                <p><strong>SKU:</strong> {selectedImage.sku}</p>
+              </div>
+            </>
+          )}
+        </Modal.Body>
+      </Modal>
     </>
   );
 };

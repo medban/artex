@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col, Carousel, Modal } from "react-bootstrap";
+import { Container, Row, Col,  Modal } from "react-bootstrap";
 
 import Img1 from "../assets/img/E1.jpg";
 import Img2 from "../assets/img/E2.jpg";
@@ -21,29 +21,30 @@ import TrackVisibility from "react-on-screen";
 import "../App.css"
 
 const images = [
-  { src: Img1, text: "Écharpe en laine 100% naturelle, tissée à la main avec soin.",sku:"E001" },
-  { src: Img2, text: "Écharpe en coton doux, idéale pour toutes les saisons.",sku:"E002" },
-  { src: Img3, text: "Écharpe élégante en lin, alliant confort et style.",sku:"E003" },
-  { src: Img4, text: "Modèle exclusif avec des motifs inspirés de la tradition tunisienne.",sku:"E004" },
-  { src: Img5, text: "Écharpe en soie luxueuse, parfaite pour les occasions spéciales.",sku:"E005" },
-  { src: Img6, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E006" },
-  { src: Img7, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E007" },
-  { src: Img8, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E008" },
-  { src: Img9, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E009" },
-  { src: Img10, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E010" },
-  { src: Img11, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E011" },
-  { src: Img12, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E012" },
-  { src: Img13, text: "Design moderne et raffiné, adapté à toutes vos tenues.",sku:"E013" },
+  { src: Img1, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E001" },
+  { src: Img2, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E002" },
+  { src: Img3, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E003" },
+  { src: Img4, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E004" },
+  { src: Img5, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E005" },
+  { src: Img6, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E006" },
+  { src: Img7, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E007" },
+  { src: Img8, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E008" },
+  { src: Img9, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E009" },
+  { src: Img10, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E010" },
+  { src: Img11, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E011" },
+  { src: Img12, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E012" },
+  { src: Img13, text: "Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.",sku:"E013" },
 
 ];
 
 const ProductDecharpe = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(0); 
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleShow = (imgSrc) => {
-    setSelectedImage(imgSrc);
+  const handleShow = (index) => {
+    setSelectedImage(images[index]); 
+    setActiveIndex(index);
     setShowModal(true);
   };
 
@@ -55,12 +56,12 @@ const ProductDecharpe = () => {
         <Container>
           <Row className="align-items-center">
           
-            <Col xs={12} md={6} xl={7}>
+            <Col xs={12} md={6} xl={4}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">ARTEX</span>
-                    <h1>ARTEX TUNISIE</h1>
+                    <span className="tagline">ARTEX TUNISIE</span>
+                    <h1>ECHARPE EN SOIE</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>
@@ -68,18 +69,23 @@ const ProductDecharpe = () => {
               </TrackVisibility>
             </Col>
 
-            <Col xs={12} md={6} xl={5}>
+           
+            <Col xs={12} md={6} xl={8}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <Carousel activeIndex={activeIndex} onSelect={(selectedIndex) => setActiveIndex(selectedIndex)}>
-                    {images.map((item, index) => (
-                     <Carousel.Item key={index} onClick={() => handleShow(item.src)}>
-                     <img className="d-block w-100" src={item.src} alt={item.text} />
-                   </Carousel.Item>
-                    ))}
-
-                    </Carousel>
+                    <Row>
+                      {images.map((item, index) => (
+                        <Col xs={6} md={4} className="mb-3" key={index}>
+                          <img
+                            src={item.src}
+                            alt={`SOI ${index + 1}`}
+                            className="img-fluid image-grid"
+                            onClick={() => handleShow(index)}
+                          />
+                        </Col>
+                      ))}
+                    </Row>
                   </div>
                 )}
               </TrackVisibility>
@@ -88,18 +94,25 @@ const ProductDecharpe = () => {
         </Container>
       </section>
 
-  
       <Footer />
 
+     
       <Modal show={showModal} onHide={handleClose} centered>
-  <Modal.Body className="text-center">
-    <img 
-      src={selectedImage} 
-      alt="Zoomed I" 
-      className="img-fluid zoom-image" 
-    />
-  </Modal.Body>
-</Modal>
+        <Modal.Body className="text-center">
+          {selectedImage && (
+            <>
+              <img
+                src={selectedImage.src}
+                alt="SOI"
+                className="img-fluid zoom-image mb-3"
+              />
+              <div>
+                <p><strong>SKU:</strong> {selectedImage.sku}</p>
+              </div>
+            </>
+          )}
+        </Modal.Body>
+      </Modal>
     </>
   );
 };

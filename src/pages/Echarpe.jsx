@@ -138,7 +138,13 @@ import { Footer } from '../components/Footer.js';
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                     <h2>ECHARPE EN SOIE </h2>
-                    <p>Le tissage du coton est un processus de fabrication textile où les fils de coton sont entrelacés pour créer un tissu. Il existe plusieurs types de tissage, chacun offrant des caractéristiques différentes en termes de texture</p>
+                    <p>Apportez une touche de raffinement à votre tenue avec cette somptueuse écharpe en soie signée Artex Tunisie. Tissée avec soin et passion dans nos ateliers, cette pièce incarne l’élégance intemporelle et le savoir-faire tunisien.</p>
+                    <p>Matière : 100 % soie naturelle</p>
+
+
+             <p>     Finition : Bords roulottés à la main</p>
+
+                    <p>Origine : Fabriquée en Tunisie</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                      
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

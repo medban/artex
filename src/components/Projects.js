@@ -13,9 +13,9 @@ import projImg3 from "../assets/img/jacquard diamond.jpg";
 import projImg4 from "../assets/img/chevron .jpg";
 import projImg5 from "../assets/img/striped.jpg";
 import projImg6 from "../assets/img/TISSU PLAT.jpg";
-import projImg7 from "../assets/img/DAIMOND/7.JPG";
+import projImg9 from "../assets/img/DAIMOND/7.JPG";
 import projImg8 from "../assets/img/nid beille classic/blueartex.JPG";
-import projImg9 from "../assets/img/nid beille/_MG_8501.JPG";
+import projImg7 from "../assets/img/BORABORA/1.jpg";
 import projImg10 from "../assets/img/arcachon/ar1.JPG";
 import projImg11 from "../assets/img/artex/ART03.JPG";
 import projImg12 from "../assets/img/nadia/ND01.JPG";
@@ -144,10 +144,10 @@ export const Projects = () => {
       link: "/tissuplat",
     },
     {
-      title: "DIAMOND",
+      title: "BORABORA",
       
       imgUrl: [projImg7], 
-      link: "/Diamond",
+      link: "/Borabora",
     },
     {
       title: "NID D'ABEILLLE JENNY",
@@ -156,7 +156,7 @@ export const Projects = () => {
       link: "/Nidabeille",
     },
     {
-      title: "NID D'ABEILLLE",
+      title: "DIAMOND",
       
       imgUrl: [projImg9], 
       link: "/Diamond",
@@ -198,7 +198,7 @@ export const Projects = () => {
       link: "/TwidPlat",
     },
     {
-      title: "PLAT DEGRADER",
+      title: " DEGRADE",
       
       imgUrl: [projImg16], 
       link: "/PlatDegrader",
@@ -288,19 +288,19 @@ export const Projects = () => {
   ];
     const projects3 = [
       {
-        title: "JOBA N°1",
+        title: "TUNIQUE N°1",
         SKU: "sku R001",
         imgUrl: [Im8], 
         link: "/Tunique",
       },
       {
-        title: "JOBA N°2",
+        title: "TUNIQUE N°2",
         SKU: "sku R002",
         imgUrl: [Im7], 
         link: "/Tunique",
       },
       {
-        title: "JOBA N°3",
+        title: "TUNIQUE N°3",
         SKU: "sku R003",
         imgUrl: [Im6], 
         link: "/Tunique",
@@ -405,43 +405,43 @@ export const Projects = () => {
     ]
     const projects5 = [
       {
-        title: "BLUE",
+        title: "DIAMOND GRIS",
         
         imgUrl: [Imj1,], 
         link: "/Jeters",
       },
       {
-        title: "PINK",
+        title: "DIAMOND BORDEAUX",
         
         imgUrl: [Imj2], 
         link: "/Jeters",
       },
       {
-        title: "BIEGE",
+        title: "DIAMOND VIOLET",
         
         imgUrl: [Imj3], 
         link: "/Jeters ",
       },
       {
-        title: "GREEN",
+        title: "DIAMOND JAUNE MOUTARDE",
         
         imgUrl: [Imj4], 
         link: "/Jeters",
       },
       {
-        title: "DRAK BLUE",
+        title: " DIAMOND GRIS CHARBON",
         
         imgUrl: [Imj5], 
         link: "/Jeters",
       },
       {
-        title: "PISTASHIO",
+        title: "DIAMOND ORANGE",
         
         imgUrl: [Imj6], 
         link: "/Jeters",
       },
       {
-        title: "GRIS CHARBON",
+        title: "ARTHUR N°1",
        
         imgUrl: Imj7,
         link: "/Jeters",
@@ -449,7 +449,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "ARTHUR N°2",
        
         imgUrl: Imj8,
         link: "/Jeters",
@@ -457,7 +457,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "ARTHUR N°3",
        
         imgUrl: Imj9,
         link: "/Jeters",
@@ -465,7 +465,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "ARTHUR N°4",
        
         imgUrl: Imj10,
         link: "/Jeters",
@@ -473,7 +473,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "DIAMOND 2/3",
        
         imgUrl: Imj11,
         link: "/Jeters",
@@ -481,7 +481,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "DIAMOND 2/3",
        
         imgUrl: Imj12,
         link: "/Jeters",
@@ -489,7 +489,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "ARTHUR N°5",
        
         imgUrl: Imj13,
         link: "/Jeters",
@@ -497,7 +497,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "UNI 2/3",
        
         imgUrl: Imj14,
         link: "/Jeters",
@@ -505,7 +505,7 @@ export const Projects = () => {
   
       },
       {
-        title: "VERTE FORET",
+        title: "ARTHUR N°6",
        
         imgUrl: Imj15,
         link: "/Jeters",
@@ -515,25 +515,25 @@ export const Projects = () => {
     ]
     const projects6 = [
       {
-        title: "BLUE",
+        title: "N°1",
         
         imgUrl: [ponImg1,], 
         link: "/Poncho",
       },
       {
-        title: "PINK",
+        title: "N°2",
         
         imgUrl: [ponImg2], 
         link: "/Poncho",
       },
       {
-        title: "BIEGE",
+        title: "N°3",
         
         imgUrl: [ponImg3], 
         link: "/Poncho ",
       },
       {
-        title: "GREEN",
+        title: "N°4",
         
         imgUrl: [ponImg4], 
         link: "/Poncho",
