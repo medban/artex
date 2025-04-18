@@ -82,7 +82,7 @@ const About = () => {
       </section>
 
       {/* Section 2 */}
-      <section className="banner1" id="home">
+      <section className="banner11" id="home">
         <Container>
           <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
@@ -110,7 +110,7 @@ const About = () => {
                       <iframe
                         width="560"
                         height="315"
-                        src="https://www.youtube.com/embed/_ypZj0pOICA"
+                        src="https://www.youtube.com/embed/W9AdWcJAcKw"
                         title="Artex Tunisie Video"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

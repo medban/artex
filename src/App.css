@@ -238,11 +238,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ about Css ************/
+.banner11{
+  margin-top: 0;
+  padding: 360px 0 100px 0;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+ background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;}
+  .banner11 h1{
+    color: #000;
+  }
+  .banner11 p{
+    color: #000;
+  }
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-}
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);}
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -291,8 +304,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner1 {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  
+background-image: url(./assets/img/bgf.jpg);  
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -303,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  color: #000;
+  color: #ffffff;
   margin-bottom: 20px;
   display: block;
 }
@@ -348,13 +360,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .skill-bx {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);  border-radius: 64px;
-  text-align: center;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);  text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  border-radius: 10px;
 }
 .skill h2 {
   color: #000;
@@ -403,8 +415,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-}
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);}
 .TITELE h1{
 color: #AA367C;
 margin-top:70px;
@@ -572,8 +583,7 @@ text-align: center;
 
 /************ contact Css ************/
 .contact {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);  padding: 60px 0 200px 0;
-}
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);}
 .contact img {
   width: 92%;
 }
@@ -652,7 +662,7 @@ text-align: center;
 
 .video-responsive {
   position: relative;
-  padding-bottom: 56.25%; 
+  padding-bottom: 50.25%; 
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -664,7 +674,7 @@ text-align: center;
 .video-responsive iframe {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
 }
@@ -672,11 +682,11 @@ text-align: center;
 
 
 
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 10px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
+  background-image: linear-gradient(135deg, #000000 0%, #000000 100%);  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }

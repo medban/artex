@@ -61,7 +61,7 @@ const ProductDNidabeille = () => {
 
   return (
     <>
-      <section className="banner1" id="home">
+      <section className="banner" id="home">
         <Container>
           <Row className="align-items-center">
           

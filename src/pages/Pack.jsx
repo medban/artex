@@ -10,6 +10,9 @@ import ImE5 from "../assets/img/pack/servietteoranger.webp";
 import ImE6 from "../assets/img/pack/servietteturquoise.webp";
 import ImE7 from "../assets/img/pack/servietteverte.webp";
 import ImE8 from "../assets/img/pack/servietteverteforet.webp";
+import ImE9 from "../assets/img/pack/plage/1.jpg"
+import ImE10 from "../assets/img/pack/plage/4.jpg"
+import ImE11 from "../assets/img/pack/PACK CUISINE/1.jpg"
 
 
 import "animate.css"
@@ -24,7 +27,33 @@ import { Footer } from '../components/Footer.js';
   
     const products = [
         
-          {
+      {
+        title: "PACK DE PLAGE",
+        description: "Design BY ARTEX",
+        SKU :"PP001",
+        imgUrl: ImE9,
+        link: "/PacksDplage",
+
+  
+      },
+      {
+        title: "PACK DE PLAGE",
+        description: "Design BY ARTEX",
+        SKU :"PP002",
+        imgUrl: ImE10,
+        link: "/PacksDplageB",
+
+  
+      }, 
+      {
+        title: "PACK DE CUISINE",
+        description: "Design BY ARTEX",
+        SKU :"PC001",
+        imgUrl: ImE11,
+        link: "/Pcuisine",
+
+  
+      },{
             title: "BLANCHE ARGENT",
             description: "Design BY ARTEX",
 

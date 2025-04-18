@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/fouta png.png"
+import contactImg from "../assets/img/log.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs from '@emailjs/browser';
