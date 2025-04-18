@@ -60,6 +60,9 @@ import ImE5 from "../assets/img/pack/servietteoranger.webp";
 import ImE6 from "../assets/img/pack/servietteturquoise.webp";
 import ImE7 from "../assets/img/pack/servietteverte.webp";
 import ImE8 from "../assets/img/pack/servietteverteforet.webp";
+import ImE9 from "../assets/img/pack/plage/1.jpg"
+import ImE10 from "../assets/img/pack/plage/4.jpg"
+import ImE11 from "../assets/img/pack/PACK CUISINE/1.jpg"
 
 /************dc 5 *********** */
 import Imj1 from "../assets/img/DAIMOND/1.JPG";
@@ -85,7 +88,13 @@ import ponImg2 from "../assets/img/PONCHO/PON002.JPG";
 import ponImg3 from "../assets/img/PONCHO/PON003.JPG";
 import ponImg4 from "../assets/img/PONCHO/PON004.JPG";
 
+/********BANIO  ***********/
+import ban1 from"../assets/img/pack/PACK BAIN/1.jpg"
+import ban2 from "../assets/img/pack/PACK BAIN/CAP DU BIAN/3.jpg"
 
+/*********nappe ********/
+import nap1 from  "../assets/img/g nappe/4.jpg"
+import nap2 from "../assets/img/nappe/2.jpg"
 
 export const Projects = () => {
   const [activeTab, setActiveTab] = useState("first");
@@ -338,6 +347,31 @@ export const Projects = () => {
     ];
     /******dc4 ******/
     const projects4 = [
+      
+      {
+        title: "Pack de plage",
+       
+        
+        imgUrl: ImE9,
+        link: "/Packs",
+  
+      },
+      {
+        title: "Pack de plage",
+       
+        
+        imgUrl: ImE10,
+        link: "/Packs",
+  
+      },
+      {
+        title: "Pack de cuisine",
+       
+        
+        imgUrl: ImE11,
+        link: "/Packs",
+  
+      },
       {
         title: "ECRU",
        
@@ -540,6 +574,37 @@ export const Projects = () => {
       },
    
     ]
+    
+    const projects7 = [
+      {
+        title: "pack banio",
+        
+        imgUrl: [ban1,], 
+        link: "/PacksB",
+      },
+      {
+        title: "cape de bain",
+        
+        imgUrl: [ban2], 
+        link: "/PacksB",
+      },
+      
+    ]
+    const projects8 = [
+      {
+        title: "N°1",
+        
+        imgUrl: [nap1,], 
+        link: "/Nappe",
+      },
+      {
+        title: "N°2",
+        
+        imgUrl: [nap2], 
+        link: "/NappeB",
+      },
+      
+    ]
     return (
       <section className="project" id="project">
         <Container>
@@ -569,6 +634,12 @@ export const Projects = () => {
                         </Nav.Item>
                         <Nav.Item>
                           <Nav.Link eventKey="six">PONCHO</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="siv">BANIO</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="eight">NAPPE</Nav.Link>
                         </Nav.Item>
                       </Nav>
   
@@ -615,6 +686,20 @@ export const Projects = () => {
                         <Tab.Pane eventKey="six">
                           <Row>
                             {projects6.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="siv">
+                          <Row>
+                            {projects7.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                            ))}
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="eight">
+                          <Row>
+                            {projects8.map((project, index) => (
                               <ProjectCard key={index} {...project} />
                             ))}
                           </Row>

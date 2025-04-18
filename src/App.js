@@ -29,6 +29,7 @@ import TwidPlat from "./pages/TwidPlat.jsx";
 import PlatDegrader from "./pages/PlatDegrader.jsx";
 import Poncho from "./pages/Poncho.jsx";
 import Borabora from "./pages/Borabora.jsx";
+import PacksB from "./pages/PackBain.jsx";
 
 /********product details pages **********/
 import ProductDstripe from "./pageDetails/productDstripe.jsx";
@@ -53,6 +54,13 @@ import TwidPlatD from "./pageDetails/TwidPlatD.jsx";
 import PlatDegraderD from "./pageDetails/PlatDegraderD.jsx";
 import PonchoD from "./pageDetails/PonchoD.jsx";
 import BoraboraD from "./pageDetails/BoraboraD.jsx";
+import PacksDplage from "./pageDetails/PacksDplage.jsx";
+import PacksDplageB from "./pageDetails/PacksDplageB.jsx";
+import Pcuisine from "./pageDetails/Pcuisine.jsx";
+import CapeDBain from "./pageDetails/CapeDBain.jsx";
+import PackTowel from "./pageDetails/PackTowel.jsx";
+import Nappe from "./pageDetails/Nappe.jsx";
+import NappeB from "./pageDetails/NappeB.jsx";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -94,6 +102,7 @@ function App() {
        <Route path="/PlatDegrader" element={<PlatDegrader/>}/>
        <Route path="/Poncho" element={<Poncho/>}/>
        <Route path="/Borabora" element={<Borabora/>}/>
+       <Route path="/PacksB" element={<PacksB/>}/>
 
 
 
@@ -120,7 +129,14 @@ function App() {
         <Route path="/PlatDegraderD" element={<PlatDegraderD/>}/>
        <Route path="/PonchoD" element={<PonchoD/>}/>
        <Route path="/BoraboraD" element={<BoraboraD/>}/>
-     
+       <Route path="/PacksDplage" element={<PacksDplage/>}/>
+       <Route path="/PacksDplageB" element={<PacksDplageB/>}/>
+       <Route path="/Pcuisine" element={<Pcuisine/>}/>
+       <Route path="/CapeDBain" element={<CapeDBain/>}/>
+       <Route path="/PackTowel" element={<PackTowel/>}/>
+       <Route path="/Nappe" element={<Nappe/>}/>
+       <Route path="/NappeB" element={<NappeB/>}/>
+
       </Routes>
       <ScrollToTopArrow/>
     </div>

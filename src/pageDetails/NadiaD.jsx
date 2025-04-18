@@ -44,7 +44,7 @@ const Nadia = () => {
 
   return (
     <>
-      <section className="banner1" id="home">
+      <section className="banner" id="home">
         <Container>
           <Row className="align-items-center">
             {/* Text Content */}
@@ -53,7 +53,7 @@ const Nadia = () => {
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline">ARTEX TUNISIE</span>
-                    <h1>MYKONOS</h1>
+                    <h1>NADIA</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>

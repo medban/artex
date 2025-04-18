@@ -1,9 +1,10 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
-import { Container, Row, Col, Carousel } from "react-bootstrap";
-import img1 from "../assets/img/1.png";
-import img2 from "../assets/img/2.png";
-import img3 from "../assets/img/5.png";
-import img4 from "../assets/img/6.png";
+import { Container, Row, Col } from "react-bootstrap";
+// add th "Carousel" in the boot up
+// import img1 from "../assets/img/1.png";
+// import img2 from "../assets/img/2.png";
+// import img3 from "../assets/img/5.png";
+// import img4 from "../assets/img/6.png";
 
 import "animate.css";
 
@@ -61,18 +62,20 @@ export const Banner = () => {
                   
                     <h1>ARTEX TUNISIE</h1>
                     <p>
-                      Arous Karim, né le 12 février 1972, est le fondateur d'Artex Textile, une entreprise
-                      située à Mahdia, en Tunisie. Passionné par l'industrie textile, il a fondé l'entreprise
-                      avec la vision de créer des produits de qualité, alliant tradition et innovation. Grâce à
-                      son expertise et à son leadership, Artex Textile s'est rapidement imposée comme un acteur
-                      clé dans le secteur textile, contribuant à l'essor économique de la région et à la création
-                      d'emplois.
+                    Artex Tunisie est une entreprise textile basée à Mahdia, en Tunisie, 
+                    fondée par Arous Karim, un passionné de l’artisanat et du savoir-faire local.
+                     Spécialisée dans le tissage de produits en coton, l’entreprise fabrique une large 
+                     gamme d’articles tels que des foutas, jetés de canapé, ponchos, serviettes et capes
+                      de bain. Artex Tunisie allie tradition et qualité pour offrir des produits à la fois 
+                      esthétiques, durables et respectueux des matières naturelles. Chaque pièce est conçue 
+                      avec soin pour répondre aux besoins 
+                    des particuliers comme des professionnels, en Tunisie et à l’international.
                     </p>
                   </div>
                 )}
               </TrackVisibility>
             </Col>
-            <Col xs={12} md={6} xl={5}>
+            {/* <Col xs={12} md={6} xl={5}>
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
@@ -93,7 +96,7 @@ export const Banner = () => {
                   </div>
                 )}
               </TrackVisibility>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>
