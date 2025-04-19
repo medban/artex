@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 import {Skills} from "./components/Skills";
 import About from "./components/About.jsx"
 import ScrollToTopArrow from "./components/Arrow.jsx"
+
 // pages*************
 
 import Jacquard from "./pages/Jaccquard.jsx";
@@ -30,6 +31,7 @@ import PlatDegrader from "./pages/PlatDegrader.jsx";
 import Poncho from "./pages/Poncho.jsx";
 import Borabora from "./pages/Borabora.jsx";
 import PacksB from "./pages/PackBain.jsx";
+import Hossoger from "./pages/Hossoger.jsx";
 
 /********product details pages **********/
 import ProductDstripe from "./pageDetails/productDstripe.jsx";
@@ -61,6 +63,7 @@ import CapeDBain from "./pageDetails/CapeDBain.jsx";
 import PackTowel from "./pageDetails/PackTowel.jsx";
 import Nappe from "./pageDetails/Nappe.jsx";
 import NappeB from "./pageDetails/NappeB.jsx";
+import HossogerD from "./pageDetails/HossogerD.jsx";
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -103,7 +106,7 @@ function App() {
        <Route path="/Poncho" element={<Poncho/>}/>
        <Route path="/Borabora" element={<Borabora/>}/>
        <Route path="/PacksB" element={<PacksB/>}/>
-
+       <Route path="/Hossoger" element={<Hossoger/>}/>
 
 
 
@@ -136,8 +139,10 @@ function App() {
        <Route path="/PackTowel" element={<PackTowel/>}/>
        <Route path="/Nappe" element={<Nappe/>}/>
        <Route path="/NappeB" element={<NappeB/>}/>
+       <Route path="/HossogerD" element={<HossogerD/>}/>
 
       </Routes>
+      
       <ScrollToTopArrow/>
     </div>
   );

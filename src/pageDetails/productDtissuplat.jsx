@@ -20,6 +20,7 @@ import Img16 from "../assets/img/tissu plat/1.JPG";
 import Img17 from "../assets/img/tissu plat/2.JPG";
 import Img18 from "../assets/img/tissu plat/3.JPG";
 import Img19 from "../assets/img/tissu plat/4.JPG";
+import TopRightImg from "../assets/img/tissu plat/TSPLAT.webp";
 
 import "animate.css";
 import { Footer } from "../components/Footer";
@@ -71,6 +72,11 @@ const ProductDtissuplat = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                   <img
+                      src={TopRightImg}
+                      alt="Hossoger Detail"
+                      className="top-right-image"
+                    />
                     <span className="tagline">ARTEX TUNISIE</span>
                     <h1>FOUTA CLASSIC</h1>
                     <p>{images[activeIndex].text}</p>

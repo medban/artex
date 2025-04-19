@@ -6,6 +6,7 @@ import Img2 from "../assets/img/classic/drack green.jpg";
 import Img3 from "../assets/img/classic/green forest.jpg";
 import Img4 from "../assets/img/classic/pink.jpg";
 import Img5 from "../assets/img/classic/purple.jpg";
+import TopRightImg from "../assets/img/classic/NID.webp";
 import "../App.css"
 
 import "animate.css";
@@ -44,6 +45,11 @@ const ProductDclassic = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                     <img
+                      src={TopRightImg}
+                      alt="Hossoger Detail"
+                      className="top-right-image"
+                    />
                     <span className="tagline">ARTEX TUNISIE</span>
                     <h1>NID D'ABEILLE</h1>
                     <p>{images[activeIndex].text}</p>

@@ -46,6 +46,7 @@ const PacksDplageB = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                    
                     <span className="tagline">ARTEX TUNISIE</span>
                     <h1>PACK DE PLAGE</h1>
                     <p>{images[activeIndex].text}</p>

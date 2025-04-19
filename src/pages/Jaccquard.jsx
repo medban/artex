@@ -18,7 +18,7 @@ import projImg19 from "../assets/img/jacquard/rouge tortue.jpg";
 import projImg20 from "../assets/img/jacquard/tortie.jpg";
 import projImg21 from "../assets/img/jacquard/verte tortue.jpg";
 import projImg22 from "../assets/img/jacquard/caree blue.jpg";
-
+import projImg23 from "../assets/img/jacquard/SCORPION.webp";
 
 
 import "animate.css"
@@ -162,6 +162,14 @@ import { Footer } from '../components/Footer.js';
                   SKU :"J017",
 
             imgUrl: projImg22,
+            link: "/ProductDjacquard",
+          },
+          {
+            title: "BLEU DJEAN ",
+            description: "Design BY ARTEX",
+                  SKU :"J018",
+
+            imgUrl: projImg23,
             link: "/ProductDjacquard",
           },
          

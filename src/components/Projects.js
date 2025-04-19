@@ -22,7 +22,8 @@ import projImg12 from "../assets/img/nadia/ND01.JPG";
 import projImg13 from "../assets/img/mykonos/MK001.JPG";
 import projImg14 from "../assets/img/st barth/ST002.JPG";
 import projImg15 from "../assets/img/twid plat/TW001.JPG";
-import projImg16 from "../assets/img/PLAT DEGRADER/PD002.JPG"
+import projImg16 from "../assets/img/PLAT DEGRADER/PD002.JPG";
+import projImg17 from "../assets/img/HOSSOGER/1.webp"
 
 /***** DC 2 ******/
 
@@ -159,6 +160,12 @@ export const Projects = () => {
       link: "/Borabora",
     },
     {
+      title: " HOSSOGER",
+      
+      imgUrl: [projImg17], 
+      link: "/Hossoger",
+    },
+    {
       title: "NID D'ABEILLLE JENNY",
       
       imgUrl: [projImg8], 
@@ -212,6 +219,7 @@ export const Projects = () => {
       imgUrl: [projImg16], 
       link: "/PlatDegrader",
     },
+   
   ];
   /******DATA 2 echarpe ********/
   const projects2 = [

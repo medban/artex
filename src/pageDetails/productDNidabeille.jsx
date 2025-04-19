@@ -19,6 +19,7 @@ import Img20 from "../assets/img/nid beille classic/rose.JPG";
 import Img22 from "../assets/img/nid beille classic/rosebleu.JPG";
 import Img23 from "../assets/img/nid beille classic/turquoise.JPG";
 import Img24 from "../assets/img/nid beille classic/violet.JPG";
+import TopRightImg from "../assets/img/nid beille classic/JJ.jpg";
 
 import "animate.css";
 import { Footer } from "../components/Footer";
@@ -69,6 +70,11 @@ const ProductDNidabeille = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                          <img
+                      src={TopRightImg}
+                      alt="Hossoger Detail"
+                      className="top-right-image"
+                    />
                     <span className="tagline">ARTEX TUNISIE</span>
                     <h1>NID D'ABEILLE JENNY</h1>
                     <p>{images[activeIndex].text}</p>
