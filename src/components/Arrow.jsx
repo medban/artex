@@ -17,10 +17,10 @@ const ScrollToTopArrow = () => {
         style={{
           position: 'fixed',
           right: '45px',
-          bottom: '50px',
+          bottom: 'px',
           backgroundColor: '#000',
           color: '#fff',
-          border: 'none',
+          borderRadius: '10px',
           padding: '20px',
           cursor: 'pointer',
           boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',

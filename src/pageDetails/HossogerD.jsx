@@ -1,44 +1,43 @@
+import { useState } from "react";
+import { Container, Row, Col, Modal } from "react-bootstrap";
 
-    import { useState } from "react";
-import { Container, Row, Col,  Modal } from "react-bootstrap";
-
-import ImE1 from "../assets/img/pack/servietteblanche.webp";
-import ImE2 from "../assets/img/pack/serviettebleuciel.webp";
-import ImE3 from "../assets/img/pack/serviettebleumarine.webp";
-import ImE4 from "../assets/img/pack/serviettegrise.webp";
-import ImE5 from "../assets/img/pack/servietteoranger.webp";
-import ImE6 from "../assets/img/pack/servietteturquoise.webp";
-import ImE7 from "../assets/img/pack/servietteverte.webp";
-import ImE8 from "../assets/img/pack/servietteverteforet.webp";
-import TopRightImg from "../assets/img/pack/pac.webp";
+import Img1 from "../assets/img/HOSSOGER/1.webp";
+import Img2 from "../assets/img/HOSSOGER/2.webp";
+import Img3 from "../assets/img/HOSSOGER/3.webp";
+import Img4 from "../assets/img/HOSSOGER/4.webp";
+import Img5 from "../assets/img/HOSSOGER/5.webp";
+import Img6 from "../assets/img/HOSSOGER/6.webp";
+import Img7 from "../assets/img/HOSSOGER/7.webp";
+import Img8 from "../assets/img/HOSSOGER/8.webp";
+import Img9 from "../assets/img/HOSSOGER/9.webp";
+import Img10 from "../assets/img/HOSSOGER/10.webp";
+import TopRightImg from "../assets/img/HOSSOGER/11.webp";
 
 import "animate.css";
-import "../App.css"
-
 import { Footer } from "../components/Footer";
 import TrackVisibility from "react-on-screen";
+import "../App.css";
 
 const images = [
-  { src: ImE1, text: "",sku:"P001" },
-  { src: ImE2, text: "",sku:"P002" },
-  { src: ImE3, text: "",sku:"P003" },
-  { src: ImE4, text: "",sku:"P004" },
-  { src: ImE5, text: "",sku:"P005" },
-  { src: ImE6, text: "",sku:"P006" },
-  { src: ImE7, text: "",sku:"P007" },
-  { src: ImE8, text: "",sku:"P008" },
- 
-
-  
+  { src: Img1, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR. Conçue avec soin par Du Artex Tunisie, cette fouta au tissage Jacquard séduit par son motif distinctif et son élégance naturelle. Douce, absorbante et légère, elle est parfaite pour vous accompagner à la plage, au hammam ou à la maison.", sku: "H001" },
+  { src: Img2, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H002" },
+  { src: Img3, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H003" },
+  { src: Img4, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H004" },
+  { src: Img5, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H005" },
+  { src: Img6, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H006" },
+  { src: Img7, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H007" },
+  { src: Img8, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H008" },
+  { src: Img9, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H009" },
+  { src: Img10, text: "Apportez une touche de style à vos instants de détente avec la fouta HOSSEGOR...", sku: "H010" },
 ];
 
-const Pack = () => {
+const HossogerD = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleShow = (index) => {
-    setSelectedImage(images[index]); // now storing the full object
+    setSelectedImage(images[index]);
     setActiveIndex(index);
     setShowModal(true);
   };
@@ -50,18 +49,17 @@ const Pack = () => {
       <section className="banner" id="home">
         <Container>
           <Row className="align-items-center">
-            {/* Text Content */}
-            <Col xs={12} md={6} xl={4}>
+            <Col xs={12} md={6} xl={4} className="position-relative">
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                   <img
+                    <img
                       src={TopRightImg}
                       alt="Hossoger Detail"
                       className="top-right-image"
                     />
                     <span className="tagline">ARTEX TUNISIE</span>
-                    <h1>PACK ARTEX</h1>
+                    <h1>HOSSOGER</h1>
                     <p>{images[activeIndex].text}</p>
                     <p><strong>SKU:</strong> {images[activeIndex].sku}</p>
                   </div>
@@ -69,7 +67,6 @@ const Pack = () => {
               </TrackVisibility>
             </Col>
 
-            {/* Images Grid */}
             <Col xs={12} md={6} xl={8}>
               <TrackVisibility>
                 {({ isVisible }) => (
@@ -79,7 +76,7 @@ const Pack = () => {
                         <Col xs={6} md={4} className="mb-3" key={index}>
                           <img
                             src={item.src}
-                            alt={`towel ${index + 1}`}
+                            alt={`FOUTA ${index + 1}`}
                             className="img-fluid image-grid"
                             onClick={() => handleShow(index)}
                           />
@@ -96,14 +93,13 @@ const Pack = () => {
 
       <Footer />
 
-      {/* Modal for Zoom Image */}
       <Modal show={showModal} onHide={handleClose} centered>
         <Modal.Body className="text-center">
           {selectedImage && (
             <>
               <img
                 src={selectedImage.src}
-                alt="handtowel"
+                alt="JACQUARD"
                 className="img-fluid zoom-image mb-3"
               />
               <div>
@@ -116,4 +112,5 @@ const Pack = () => {
     </>
   );
 };
-export default Pack;
+
+export default HossogerD;

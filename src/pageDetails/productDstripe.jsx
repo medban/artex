@@ -11,6 +11,7 @@ import Img7 from "../assets/img/stripe/orange.jpg";
 import Img8 from "../assets/img/stripe/rose.jpg";
 import Img9 from "../assets/img/stripe/tirqose.jpg";
 import Img10 from "../assets/img/stripe/verte.jpg";
+import TopRightImg from "../assets/img/stripe/SST.jpg";
 
 import "animate.css";
 import "../App.css"
@@ -54,6 +55,11 @@ const ProductDstripe = () => {
               <TrackVisibility>
                 {({ isVisible }) => (
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                   <img
+                                         src={TopRightImg}
+                                         alt="Hossoger Detail"
+                                         className="top-right-image"
+                                       />
                     <span className="tagline">ARTEX TUNISIE</span>
                     <h1>GRIAN DE CAFE</h1>
                     <p>{images[activeIndex].text}</p>

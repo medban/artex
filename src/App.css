@@ -252,6 +252,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner11 p{
     color: #000;
   }
+  .top-right-image {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    width: 100%; 
+    height: 100%;
+    z-index: 1;
+  }
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -294,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 10s linear infinite;
+ 
   border-radius: 10PX;
   
 }
@@ -303,7 +311,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /******section usune***/
 .banner1 {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 360px 0 100px 0;
 background-image: url(./assets/img/bgf.jpg);  
   background-position: top center;
   background-size: cover;
